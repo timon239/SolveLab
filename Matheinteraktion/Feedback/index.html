@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SolveLab Feedback-Formular</title>
+    <style>
+      :root {
+        --bg: #f4efe6;
+        --bg-accent: #f7d6a3;
+        --paper: #fffaf2;
+        --ink: #1f2933;
+        --muted: #5f6b76;
+        --line: #d8c9b2;
+        --brand: #1f6f5f;
+        --brand-2: #a23b2a;
+        --warn: #b45309;
+        --ok: #166534;
+        --radius: 14px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 10% 10%, rgba(247, 214, 163, 0.45), transparent 35%),
+          radial-gradient(circle at 90% 0%, rgba(31, 111, 95, 0.12), transparent 40%),
+          linear-gradient(170deg, var(--bg), #efe5d6 60%, #e9dcc8);
+      }
+
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      .hero {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: linear-gradient(135deg, rgba(255, 250, 242, 0.95), rgba(247, 214, 163, 0.35));
+        padding: 22px;
+        box-shadow: 0 18px 35px rgba(31, 41, 51, 0.08);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.5rem, 2.5vw, 2.3rem);
+        letter-spacing: 0.01em;
+      }
+
+      .subtitle {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 0.98rem;
+      }
+
+      .pill {
+        display: inline-block;
+        margin-top: 14px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(31, 111, 95, 0.12);
+        color: var(--brand);
+        font-size: 0.85rem;
+      }
+
+      form {
+        margin-top: 18px;
+        display: grid;
+        gap: 16px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--paper);
+        padding: 16px;
+      }
+
+      .card h2 {
+        margin: 0 0 10px;
+        font-size: 1.1rem;
+      }
+
+      .row {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(12, 1fr);
+      }
+
+      .field {
+        display: grid;
+        gap: 6px;
+      }
+
+      .field label {
+        font-size: 0.88rem;
+        color: var(--muted);
+      }
+
+      .col-12 { grid-column: span 12; }
+      .col-6 { grid-column: span 6; }
+      .col-4 { grid-column: span 4; }
+      .col-3 { grid-column: span 3; }
+
+      input,
+      textarea,
+      select {
+        width: 100%;
+        border: 1px solid #ccbba3;
+        border-radius: 10px;
+        padding: 10px 11px;
+        font: inherit;
+        color: inherit;
+        background: #fff;
+      }
+
+      textarea {
+        min-height: 96px;
+        resize: vertical;
+      }
+
+      details {
+        border: 1px dashed #cab99f;
+        border-radius: 10px;
+        padding: 10px 12px;
+        background: #fffdf8;
+      }
+
+      details summary {
+        cursor: pointer;
+        color: var(--brand);
+        font-weight: 600;
+      }
+
+      .ticket {
+        border: 1px solid #d8c7af;
+        border-radius: 12px;
+        padding: 12px;
+        background: #fff;
+        margin-top: 10px;
+      }
+
+      .ticket .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 10px;
+      }
+
+      .ticket .head strong {
+        font-size: 0.95rem;
+      }
+
+      .btn-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      button {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        padding: 10px 14px;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .btn-primary {
+        background: var(--brand);
+        color: #fff;
+      }
+
+      .btn-secondary {
+        background: #fff;
+        border-color: var(--line);
+        color: var(--ink);
+      }
+
+      .btn-danger {
+        background: #fff;
+        border-color: #e2b8b0;
+        color: var(--brand-2);
+      }
+
+      .hint {
+        margin: 0;
+        font-size: 0.88rem;
+        color: var(--warn);
+      }
+
+      .status {
+        margin: 0;
+        font-size: 0.88rem;
+        color: var(--ok);
+      }
+
+      .footer-note {
+        margin-top: 8px;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+
+      @media (max-width: 760px) {
+        .col-6,
+        .col-4,
+        .col-3 {
+          grid-column: span 12;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <h1>SolveLab Feedback-Formular</h1>
+        <p class="subtitle">
+          So wenig Aufwand wie moeglich: alles ist optional. Am Ende klickst du auf
+          "Als Markdown speichern" und sendest die Datei weiter.
+        </p>
+        <span class="pill">Keine Pflichtfelder. Direkter .md-Export.</span>
+      </section>
+
+      <form id="feedbackForm">
+        <section class="card">
+          <h2>1) Kurzfeedback</h2>
+          <div class="row">
+            <div class="field col-6">
+              <label for="tester">Tester (optional)</label>
+              <input id="tester" name="tester" placeholder="z. B. Anna" />
+            </div>
+            <div class="field col-6">
+              <label for="version">Version (optional)</label>
+              <input id="version" name="version" placeholder="z. B. 0.9.4" />
+            </div>
+            <div class="field col-12">
+              <label for="summary">Kurzfazit in 2-4 Saetzen (optional)</label>
+              <textarea id="summary" name="summary" placeholder="Wie war der Gesamteindruck?"></textarea>
+            </div>
+            <div class="field col-12">
+              <label for="top3">Wichtigste 3 Punkte (optional, eine Zeile pro Punkt)</label>
+              <textarea id="top3" name="top3" placeholder="Punkt 1&#10;Punkt 2&#10;Punkt 3"></textarea>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>2) Tickets</h2>
+          <p class="footer-note">Wenn du nur ein Thema hast, reicht ein Ticketblock.</p>
+          <div id="tickets"></div>
+          <div class="btn-row" style="margin-top: 10px">
+            <button type="button" id="addTicket" class="btn-secondary">+ Weiteres Ticket</button>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>3) Export</h2>
+          <p id="softHint" class="hint" aria-live="polite"></p>
+          <p id="status" class="status" aria-live="polite"></p>
+          <div class="btn-row">
+            <button type="button" id="downloadMd" class="btn-primary">Als Markdown speichern</button>
+            <button type="button" id="copyMd" class="btn-secondary">Markdown kopieren</button>
+            <button type="reset" class="btn-danger">Zuruecksetzen</button>
+          </div>
+          <p class="footer-note">
+            Leere Felder werden automatisch sinnvoll ersetzt (z. B. Tester = Anonym).
+          </p>
+        </section>
+      </form>
+    </main>
+
+    <template id="ticketTemplate">
+      <article class="ticket" data-ticket>
+        <div class="head">
+          <strong>Ticket <span data-ticket-label></span></strong>
+          <button type="button" class="btn-danger" data-remove-ticket>Entfernen</button>
+        </div>
+
+        <div class="row">
+          <div class="field col-4">
+            <label>Typ</label>
+            <select data-field="type">
+              <option>Bug</option>
+              <option>UX</option>
+              <option>Inhalt</option>
+              <option>Feature</option>
+              <option>Technik</option>
+              <option selected>Sonstiges</option>
+            </select>
+          </div>
+
+          <div class="field col-4">
+            <label>Prioritaet</label>
+            <select data-field="priority">
+              <option>P0</option>
+              <option>P1</option>
+              <option selected>P2</option>
+              <option>P3</option>
+            </select>
+          </div>
+
+          <div class="field col-4">
+            <label>Status</label>
+            <select data-field="status">
+              <option selected>Offen</option>
+              <option>In Pruefung</option>
+              <option>Erledigt</option>
+            </select>
+          </div>
+
+          <div class="field col-12">
+            <label>Titel (optional)</label>
+            <input data-field="title" placeholder="Kurztitel" />
+          </div>
+
+          <div class="field col-12">
+            <label>Ist-Verhalten (optional)</label>
+            <textarea data-field="actual" placeholder="Was passiert aktuell?"></textarea>
+          </div>
+
+          <div class="field col-12">
+            <label>Soll-Verhalten (optional)</label>
+            <textarea data-field="expected" placeholder="Was sollte passieren?"></textarea>
+          </div>
+        </div>
+
+        <details>
+          <summary>Erweiterte Felder (optional)</summary>
+          <div class="row" style="margin-top: 10px">
+            <div class="field col-6">
+              <label>Bereich</label>
+              <input data-field="area" placeholder="z. B. Algebra, Export" />
+            </div>
+            <div class="field col-6">
+              <label>Haeufigkeit</label>
+              <select data-field="frequency">
+                <option selected>Einmalig</option>
+                <option>Selten</option>
+                <option>Oft</option>
+                <option>Immer</option>
+              </select>
+            </div>
+            <div class="field col-12">
+              <label>Schritte zur Reproduktion (eine Zeile je Schritt)</label>
+              <textarea data-field="steps" placeholder="App starten&#10;Aktion ausfuehren&#10;Ergebnis sehen"></textarea>
+            </div>
+            <div class="field col-4">
+              <label>Nutzerwirkung</label>
+              <input data-field="impactUser" />
+            </div>
+            <div class="field col-4">
+              <label>Risiko</label>
+              <input data-field="impactRisk" />
+            </div>
+            <div class="field col-4">
+              <label>Zielgruppe</label>
+              <input data-field="impactGroup" />
+            </div>
+            <div class="field col-6">
+              <label>Moegliche Ursache</label>
+              <input data-field="cause" />
+            </div>
+            <div class="field col-6">
+              <label>Verwandte Stellen/Dateien</label>
+              <input data-field="related" />
+            </div>
+            <div class="field col-12">
+              <label>Loesungsvorschlag</label>
+              <textarea data-field="solution"></textarea>
+            </div>
+            <div class="field col-12">
+              <label>Akzeptanzkriterien (eine Zeile je Kriterium)</label>
+              <textarea data-field="criteria" placeholder="Kriterium 1&#10;Kriterium 2"></textarea>
+            </div>
+            <div class="field col-4">
+              <label>Screenshot</label>
+              <input data-field="screenshot" placeholder="Dateiname oder Link" />
+            </div>
+            <div class="field col-4">
+              <label>Video</label>
+              <input data-field="video" placeholder="Dateiname oder Link" />
+            </div>
+            <div class="field col-4">
+              <label>Konsolenfehler</label>
+              <input data-field="console" placeholder="Kurzer Fehlertext" />
+            </div>
+            <div class="field col-12">
+              <label>Sonstige Notizen</label>
+              <textarea data-field="notes"></textarea>
+            </div>
+          </div>
+        </details>
+      </article>
+    </template>
+
+    <script>
+      const ticketsRoot = document.getElementById("tickets");
+      const ticketTemplate = document.getElementById("ticketTemplate");
+      const addTicketBtn = document.getElementById("addTicket");
+      const downloadBtn = document.getElementById("downloadMd");
+      const copyBtn = document.getElementById("copyMd");
+      const softHint = document.getElementById("softHint");
+      const statusEl = document.getElementById("status");
+
+      function nowIsoDate() {
+        return new Date().toISOString().slice(0, 10);
+      }
+
+      function sanitizeFilePart(input, fallback) {
+        const text = (input || "").trim();
+        if (!text) return fallback;
+        return text
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-zA-Z0-9_-]+/g, "_")
+          .replace(/_+/g, "_")
+          .replace(/^_|_$/g, "")
+          .toLowerCase() || fallback;
+      }
+
+      function getValue(node, selector) {
+        const el = node.querySelector(selector);
+        return el ? el.value.trim() : "";
+      }
+
+      function splitLines(text) {
+        return (text || "")
+          .split(/\r?\n/)
+          .map((line) => line.trim())
+          .filter(Boolean);
+      }
+
+      function makeTicketId(index) {
+        return `FB-${String(index + 1).padStart(3, "0")}`;
+      }
+
+      function addTicket(prefill = {}) {
+        const fragment = ticketTemplate.content.cloneNode(true);
+        const article = fragment.querySelector("[data-ticket]");
+
+        article.querySelectorAll("[data-field]").forEach((field) => {
+          const key = field.getAttribute("data-field");
+          if (prefill[key]) {
+            field.value = prefill[key];
+          }
+        });
+
+        article.querySelector("[data-remove-ticket]").addEventListener("click", () => {
+          article.remove();
+          relabelTickets();
+          setSoftHint();
+        });
+
+        ticketsRoot.appendChild(fragment);
+        relabelTickets();
+      }
+
+      function relabelTickets() {
+        [...ticketsRoot.querySelectorAll("[data-ticket]")].forEach((ticket, idx) => {
+          ticket.querySelector("[data-ticket-label]").textContent = makeTicketId(idx);
+        });
+      }
+
+      function collectTickets() {
+        const cards = [...ticketsRoot.querySelectorAll("[data-ticket]")];
+        return cards.map((card, idx) => {
+          const id = makeTicketId(idx);
+          return {
+            id,
+            type: getValue(card, '[data-field="type"]') || "Sonstiges",
+            title: getValue(card, '[data-field="title"]') || "Ohne Titel",
+            priority: getValue(card, '[data-field="priority"]') || "P2",
+            status: getValue(card, '[data-field="status"]') || "Offen",
+            area: getValue(card, '[data-field="area"]') || "Nicht angegeben",
+            actual: getValue(card, '[data-field="actual"]') || "Keine Angabe",
+            expected: getValue(card, '[data-field="expected"]') || "Keine Angabe",
+            steps: splitLines(getValue(card, '[data-field="steps"]')),
+            frequency: getValue(card, '[data-field="frequency"]') || "Einmalig",
+            impactUser: getValue(card, '[data-field="impactUser"]') || "Keine Angabe",
+            impactRisk: getValue(card, '[data-field="impactRisk"]') || "Keine Angabe",
+            impactGroup: getValue(card, '[data-field="impactGroup"]') || "Keine Angabe",
+            cause: getValue(card, '[data-field="cause"]') || "Keine Angabe",
+            related: getValue(card, '[data-field="related"]') || "Keine Angabe",
+            solution: getValue(card, '[data-field="solution"]') || "Keine Angabe",
+            criteria: splitLines(getValue(card, '[data-field="criteria"]')),
+            screenshot: getValue(card, '[data-field="screenshot"]') || "Keine Angabe",
+            video: getValue(card, '[data-field="video"]') || "Keine Angabe",
+            console: getValue(card, '[data-field="console"]') || "Keine Angabe",
+            notes: getValue(card, '[data-field="notes"]') || "Keine Angabe"
+          };
+        });
+      }
+
+      function markdownFromForm() {
+        const date = nowIsoDate();
+        const tester = (document.getElementById("tester").value || "").trim() || "Anonym";
+        const version = (document.getElementById("version").value || "").trim() || "Unbekannt";
+        const summary = (document.getElementById("summary").value || "").trim() || "Keine Angabe";
+        const top3 = splitLines(document.getElementById("top3").value || "");
+        const tickets = collectTickets();
+
+        const topLines = [
+          top3[0] || "Keine Angabe",
+          top3[1] || "Keine Angabe",
+          top3[2] || "Keine Angabe"
+        ];
+
+        const ticketTable = tickets.length
+          ? tickets
+              .map((t) => `| ${t.id} | ${t.type} | ${t.title} | ${t.priority} | ${t.status} |`)
+              .join("\n")
+          : "| FB-001 | Sonstiges | Ohne Titel | P2 | Offen |";
+
+        const detailBlocks = (tickets.length ? tickets : [{
+          id: "FB-001",
+          type: "Sonstiges",
+          title: "Ohne Titel",
+          priority: "P2",
+          status: "Offen",
+          area: "Nicht angegeben",
+          actual: "Keine Angabe",
+          expected: "Keine Angabe",
+          steps: [],
+          frequency: "Einmalig",
+          impactUser: "Keine Angabe",
+          impactRisk: "Keine Angabe",
+          impactGroup: "Keine Angabe",
+          cause: "Keine Angabe",
+          related: "Keine Angabe",
+          solution: "Keine Angabe",
+          criteria: [],
+          screenshot: "Keine Angabe",
+          video: "Keine Angabe",
+          console: "Keine Angabe",
+          notes: "Keine Angabe"
+        }]).map((t) => {
+          const steps = t.steps.length ? t.steps.map((s, i) => `${i + 1}. ${s}`).join("\n") : "1. Keine Angabe";
+          const criteria = t.criteria.length
+            ? t.criteria.map((c) => `- [ ] ${c}`).join("\n")
+            : "- [ ] Keine Angabe";
+
+          return `### ${t.id} - ${t.title}\n\n**Typ**\n- ${t.type}\n\n**Bereich**\n- ${t.area}\n\n**Prioritaet**\n- ${t.priority}\n\n**Ist-Verhalten**\n- ${t.actual}\n\n**Soll-Verhalten**\n- ${t.expected}\n\n**Schritte zur Reproduktion**\n${steps}\n\n**Haeufigkeit**\n- ${t.frequency}\n\n**Auswirkung**\n- Nutzerwirkung: ${t.impactUser}\n- Risiko: ${t.impactRisk}\n- Betroffene Zielgruppe: ${t.impactGroup}\n\n**Kontext / Vermutung (optional)**\n- Moegliche Ursache: ${t.cause}\n- Verwandte Stellen/Dateien (falls bekannt): ${t.related}\n\n**Vorschlag zur Loesung (optional)**\n- Kurzvorschlag: ${t.solution}\n\n**Akzeptanzkriterien**\n${criteria}\n\n**Anhaenge**\n- Screenshot: ${t.screenshot}\n- Video: ${t.video}\n- Konsolenfehler: ${t.console}\n- Sonstige Notizen: ${t.notes}`;
+        }).join("\n\n---\n\n");
+
+        return `# SolveLab - Feedback-Log\n\n> Zweck: Rueckmeldungen so dokumentieren, dass sie direkt fuer Planungs- und Umsetzungsagenten nutzbar sind.\n\n## 1. Meta\n\n- Datum: ${date}\n- Version: ${version}\n- Tester: ${tester}\n- Umgebung:\n  - Betriebssystem: Keine Angabe\n  - Browser: Keine Angabe\n  - Startart: Keine Angabe\n- Build/Stand-ID: Keine Angabe\n\n## 2. Zusammenfassung\n\n- Kurzfazit in 2-4 Saetzen: ${summary}\n- Wichtigste 3 Punkte:\n  1. ${topLines[0]}\n  2. ${topLines[1]}\n  3. ${topLines[2]}\n\n## 3. Ticket-Uebersicht\n\n| ID | Typ | Titel | Prioritaet | Status |\n| ---- | ---- | ---- | ---- | ---- |\n${ticketTable}\n\n---\n\n## 4. Detailtickets\n\n${detailBlocks}\n`;
+      }
+
+      function setSoftHint() {
+        const tester = (document.getElementById("tester").value || "").trim();
+        const summary = (document.getElementById("summary").value || "").trim();
+        const hasAnyTicketTitle = [...document.querySelectorAll('[data-field="title"]')]
+          .some((field) => field.value.trim().length > 0);
+
+        if (!tester && !summary && !hasAnyTicketTitle) {
+          softHint.textContent = "Hinweis: Auch ohne Eingaben kannst du exportieren. Ein kurzer Titel oder ein Satz hilft spaeter bei der Auswertung.";
+        } else {
+          softHint.textContent = "";
+        }
+      }
+
+      function downloadMarkdown(text) {
+        const tester = sanitizeFilePart(document.getElementById("tester").value, "anonym");
+        const firstType = sanitizeFilePart(
+          document.querySelector('[data-field="type"]')?.value || "sonstiges",
+          "sonstiges"
+        );
+        const now = new Date();
+        const stamp = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}_${String(now.getHours()).padStart(2, "0")}-${String(now.getMinutes()).padStart(2, "0")}-${String(now.getSeconds()).padStart(2, "0")}`;
+        const filename = `feedback_${stamp}_${firstType}_${tester}.md`;
+
+        const blob = new Blob([text], { type: "text/markdown;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+
+        statusEl.textContent = `Gespeichert als ${filename}`;
+      }
+
+      async function copyMarkdown(text) {
+        if (!navigator.clipboard || !navigator.clipboard.writeText) {
+          statusEl.textContent = "Zwischenablage wird in diesem Browser nicht unterstuetzt.";
+          return;
+        }
+
+        try {
+          await navigator.clipboard.writeText(text);
+          statusEl.textContent = "Markdown in Zwischenablage kopiert.";
+        } catch (_error) {
+          statusEl.textContent = "Kopieren fehlgeschlagen. Nutze bitte den Download-Button.";
+        }
+      }
+
+      addTicketBtn.addEventListener("click", () => {
+        addTicket();
+        setSoftHint();
+      });
+
+      document.getElementById("feedbackForm").addEventListener("input", setSoftHint);
+
+      document.getElementById("feedbackForm").addEventListener("reset", () => {
+        setTimeout(() => {
+          ticketsRoot.innerHTML = "";
+          addTicket();
+          statusEl.textContent = "Formular zurueckgesetzt.";
+          setSoftHint();
+        }, 0);
+      });
+
+      downloadBtn.addEventListener("click", () => {
+        const markdown = markdownFromForm();
+        downloadMarkdown(markdown);
+      });
+
+      copyBtn.addEventListener("click", () => {
+        const markdown = markdownFromForm();
+        copyMarkdown(markdown);
+      });
+
+      addTicket({});
+      setSoftHint();
+    </script>
+  </body>
+</html>

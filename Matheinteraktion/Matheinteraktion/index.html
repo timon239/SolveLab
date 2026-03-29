@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SolveLab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>SolveLab</h1>
+    <p>Dein interaktives Mathe-Labor für Algebra, Funktionen, Geometrie und Trigonometrie.</p>
+  </header>
+
+  <main class="layout">
+    <aside class="menu">
+      <h2>Lernpfad</h2>
+      <div id="topicTree" class="topic-tree"></div>
+      <div class="state-controls">
+        <button id="exportJsonBtn" type="button">Stand exportieren (JSON)</button>
+        <button id="exportPdfBtn" type="button">Statistik exportieren (PDF)</button>
+        <button id="importStateBtn" type="button">Stand importieren</button>
+        <button id="resetStateBtn" type="button" class="danger-btn">Stand löschen</button>
+        <input id="importStateInput" type="file" accept="application/json" hidden />
+      </div>
+      <div class="progress-box">
+        <h3>Standortübersicht</h3>
+        <ul id="progressList"></ul>
+      </div>
+    </aside>
+
+    <section class="content">
+      <article id="overview" class="panel active">
+        <h2>Übersicht und Empfehlung</h2>
+        <p>Hier findest du deinen Lernstand, klare nächste Schritte und eine Empfehlung, mit der du direkt weiterarbeiten kannst.</p>
+        <div id="overviewCards" class="overview-grid"></div>
+        <div id="recommendationBox" class="card"></div>
+        <div id="coverageMatrix" class="card"></div>
+      </article>
+
+      <article id="statistics" class="panel">
+        <h2>Statistik</h2>
+        <p>Hier siehst du, was du schon sicher kannst und wo sich ein weiterer Übungsdurchgang lohnt.</p>
+        <canvas id="statsCanvas" width="920" height="280" class="stats-canvas"></canvas>
+        <div id="statsTable" class="card"></div>
+      </article>
+
+      <article id="archive" class="panel">
+        <h2>Nachschlage und Zusatzübungen</h2>
+        <p>Wenn dir Vorwissen fehlt, kannst du hier ruhig und Schritt für Schritt Grundlagen nachholen und direkt üben.</p>
+        <div id="archiveGrid" class="archive-grid"></div>
+      </article>
+
+      <article id="glossary" class="panel">
+        <h2>Glossar Mathematik</h2>
+        <p>Hier werden wichtige Begriffe kurz und verständlich erklärt, damit du beim Lernen nicht ins Stocken gerätst.</p>
+        <div id="glossaryGrid" class="glossary-grid"></div>
+      </article>
+
+      <article id="algebra" class="panel">
+        <h2>Algebra (Lernziele)</h2>
+        <p>Arbeite dich hier durch Gleichungen, Potenzen, Logarithmen und Zinseszins - mit Theorie, Beispielen und direktem Üben.</p>
+        <div class="goal-section">
+          <h3>Lernziel-Workshop Algebra</h3>
+          <p>Jeder Block führt dich von der Theorie über Beispiele bis zur eigenen Übung mit direkter Rückmeldung.</p>
+          <div id="goals-algebra" class="goal-grid"></div>
+        </div>
+      </article>
+
+      <article id="funktionen" class="panel">
+        <h2>Funktionen</h2>
+        <p>Entdecke lineare, quadratische und exponentielle Funktionen und verstehe, wie Graphen und Gleichungen zusammenhängen.</p>
+        <div class="goal-section">
+          <h3>Lernziel-Workshop Funktionen</h3>
+          <div id="goals-funktionen" class="goal-grid"></div>
+        </div>
+      </article>
+
+      <article id="geometrie" class="panel">
+        <h2>Geometrie</h2>
+        <p>Von Flächen bis zu Körpern: Hier lernst du Geometrie mit Skizzen, Formeln und anschaulichen Modellen.</p>
+        <div class="goal-section">
+          <h3>Lernziel-Workshop Geometrie</h3>
+          <div id="goals-geometrie" class="goal-grid"></div>
+        </div>
+        <div class="card">
+          <h3>3D-Körperviewer (rotierbar)</h3>
+          <p>Bewege das Modell, wechsle den Körpertyp und nutze die Ansicht, um dir Raumvorstellungen leichter aufzubauen.</p>
+          <div class="inputs">
+            <label>Körpertyp
+              <select id="solid3dType">
+                <option value="box">Quader</option>
+                <option value="cylinder">Zylinder</option>
+                <option value="cone">Kegel</option>
+                <option value="pyramid">Pyramide</option>
+                <option value="sphere">Kugel</option>
+              </select>
+            </label>
+            <label>Kantenlänge / Breite
+              <input id="solid3dA" type="number" value="4" step="0.5" />
+            </label>
+            <label>Höhe
+              <input id="solid3dH" type="number" value="5" step="0.5" />
+            </label>
+            <label>Radius
+              <input id="solid3dR" type="number" value="2" step="0.25" />
+            </label>
+          </div>
+          <div id="solid3dViewport" class="solid3d-viewport"></div>
+          <pre id="solid3dInfo" class="result">3D-Modell bereit.</pre>
+        </div>
+      </article>
+
+      <article id="trigonometrie" class="panel">
+        <h2>Trigonometrie</h2>
+        <p>Hier verbindest du Winkel, Seiten und Raumvorstellung Schritt für Schritt mit trigonometrischen Werkzeugen.</p>
+        <div class="goal-section">
+          <h3>Lernziel-Workshop Trigonometrie</h3>
+          <div id="goals-trigonometrie" class="goal-grid"></div>
+        </div>
+      </article>
+
+      <article id="formelbuch" class="panel">
+        <h2>Formelbuch Sprint 1 (mit Quellen)</h2>
+        <p>Hier findest du die wichtigsten Formeln mit Quellenhinweis, damit du schnell nachschauen und sicher weiterarbeiten kannst.</p>
+        <div id="formulaLibrary" class="formula-grid"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>SolveLab - gestaltet für tiefes Verständnis und selbstentdecktes Lernen.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

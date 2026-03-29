@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "source": "/Users/timon/Downloads/Fundamentum.pdf",
+    "count": 14,
+    "note": "Automatisch gemappte Seiten über Schlüsselwörter, zur finalen Kontrolle geeignet."
+  },
+  "formulas": [
+    {
+      "chapter": "Algebra",
+      "title": "Lineare Funktion",
+      "latex": "y = mx + q",
+      "variables": {
+        "m": "Steigung",
+        "q": "y-Achsenabschnitt",
+        "x": "Eingabewert"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 14,
+      "page_note": "S. 14"
+    },
+    {
+      "chapter": "Algebra",
+      "title": "Lineare Gleichung",
+      "latex": "ax + b = 0",
+      "variables": {
+        "a": "Koeffizient",
+        "b": "Konstante",
+        "x": "Unbekannte"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 14,
+      "page_note": "S. 14"
+    },
+    {
+      "chapter": "Funktionen",
+      "title": "Quadratische Funktion",
+      "latex": "f(x) = ax^2 + bx + c",
+      "variables": {
+        "a": "Öffnung/Streckung",
+        "b": "Linearanteil",
+        "c": "y-Achsenabschnitt"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 6,
+      "page_note": "S. 6"
+    },
+    {
+      "chapter": "Funktionen",
+      "title": "Mitternachtsformel",
+      "latex": "x_{1,2} = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+      "variables": {
+        "a,b,c": "Koeffizienten",
+        "x_1,x_2": "Nullstellen"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 13,
+      "page_note": "S. 13"
+    },
+    {
+      "chapter": "Funktionen",
+      "title": "Diskriminante",
+      "latex": "\\Delta = b^2 - 4ac",
+      "variables": {
+        "\\Delta": "Diskriminante",
+        "a,b,c": "Koeffizienten"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 15,
+      "page_note": "S. 15"
+    },
+    {
+      "chapter": "Algebra",
+      "title": "Logarithmus Produktregel",
+      "latex": "\\log_b(uv) = \\log_b(u) + \\log_b(v)",
+      "variables": {
+        "b": "Basis",
+        "u,v": "positive Zahlen"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 16,
+      "page_note": "S. 16"
+    },
+    {
+      "chapter": "Funktionen",
+      "title": "Exponentialfunktion",
+      "latex": "f(x) = a \\cdot b^x",
+      "variables": {
+        "a": "Startwert",
+        "b": "Wachstumsfaktor",
+        "x": "Zeit/Schritt"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 51,
+      "page_note": "S. 51"
+    },
+    {
+      "chapter": "Geometrie",
+      "title": "Dreiecksfläche",
+      "latex": "A = \\frac{1}{2}gh",
+      "variables": {
+        "g": "Grundseite",
+        "h": "Höhe"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 19,
+      "page_note": "S. 19"
+    },
+    {
+      "chapter": "Geometrie",
+      "title": "Kreisfläche",
+      "latex": "A = \\pi r^2",
+      "variables": {
+        "r": "Radius"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 19,
+      "page_note": "S. 19"
+    },
+    {
+      "chapter": "Geometrie",
+      "title": "Kreisumfang",
+      "latex": "U = 2\\pi r",
+      "variables": {
+        "r": "Radius"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 19,
+      "page_note": "S. 19"
+    },
+    {
+      "chapter": "Geometrie",
+      "title": "Kugelvolumen",
+      "latex": "V = \\frac{4}{3}\\pi r^3",
+      "variables": {
+        "r": "Radius"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 31,
+      "page_note": "S. 31"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "title": "Sinus im rechtwinkligen Dreieck",
+      "latex": "\\sin(\\alpha) = \\frac{\\text{Gegenkathete}}{\\text{Hypotenuse}}",
+      "variables": {
+        "\\alpha": "Winkel"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 17,
+      "page_note": "S. 17"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "title": "Kosinus im rechtwinkligen Dreieck",
+      "latex": "\\cos(\\alpha) = \\frac{\\text{Ankathete}}{\\text{Hypotenuse}}",
+      "variables": {
+        "\\alpha": "Winkel"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 26,
+      "page_note": "S. 26"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "title": "Tangens im rechtwinkligen Dreieck",
+      "latex": "\\tan(\\alpha) = \\frac{\\text{Gegenkathete}}{\\text{Ankathete}}",
+      "variables": {
+        "\\alpha": "Winkel"
+      },
+      "source": "Fundamentum.pdf",
+      "page": 12,
+      "page_note": "S. 12"
+    }
+  ]
+}

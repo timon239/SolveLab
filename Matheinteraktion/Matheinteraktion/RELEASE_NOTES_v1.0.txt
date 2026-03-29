@@ -1,0 +1,43 @@
+SolveLab - Release Notes v1.0
+Datum: 27.03.2026
+Status: Freigegeben für begrenzten Testkreis
+
+Ziel der Version
+- Erste stabile Testversion für Feedback aus der Praxis
+- Fokus auf Bedienbarkeit, Lernfluss und technische Grundstabilität
+
+Enthaltene Dateien in der Test-ZIP
+- index.html
+- styles.css
+- script.js
+- data/
+- README.md
+- START_HIER.txt
+
+Wichtige Funktionen
+- Interaktive Lernziele für Algebra, Funktionen, Geometrie und Trigonometrie
+- Zufallsaufgaben mit Lösung und Laden in die Sandbox (wo verfügbar)
+- Lernstand lokal im Browser
+- Export/Import des Lernstands als JSON
+- Statistik-Export als PDF
+
+Bekannte Hinweise und Grenzen
+- Direktes Öffnen von index.html ist als erster Versuch möglich, aber browserabhängig
+- Bei Problemen wird lokaler Start über http://localhost:8080 empfohlen
+- Für einige Bibliotheken ist derzeit eine Internetverbindung nötig
+
+Getesteter Startweg für den Testkreis
+1. ZIP entpacken
+2. index.html doppelklicken
+3. Falls Inhalte fehlen: lokalen Webserver starten und http://localhost:8080 öffnen
+
+Feedback erwünscht
+- Verständlichkeit der Aufgaben und Texte
+- Stabilität beim Wechsel zwischen Themen und Lernzielen
+- Auffälligkeiten bei Grafik, Formeln oder PDF-Export
+- Vorschläge für besseren Einstieg für neue Nutzer
+
+Nächste Schritte nach Testphase
+- Rückmeldungen auswerten
+- Startprozess weiter vereinfachen (z. B. Doppelklick-Starter)
+- Bibliotheken optional lokal beilegen für bessere Offline-Nutzung

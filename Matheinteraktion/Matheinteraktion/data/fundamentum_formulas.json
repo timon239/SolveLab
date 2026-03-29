@@ -1,0 +1,4438 @@
+{
+  "meta": {
+    "source": "/Users/timon/Downloads/Fundamentum.pdf",
+    "page_count": 123,
+    "pages_extracted": 123,
+    "formulas_detected": 738
+  },
+  "formulas": [
+    {
+      "page": 2,
+      "chapter": "Unbekannt",
+      "formula_raw": "{1, 2, 3, 4, ... } No= NU {O}",
+      "score": 5
+    },
+    {
+      "page": 2,
+      "chapter": "Unbekannt",
+      "formula_raw": "]a, b[ = (a, b) := {xla < x < b /\\ x E IR} [a, b] := {xla x :<::b: /\\ x E IR}",
+      "score": 17
+    },
+    {
+      "page": 2,
+      "chapter": "Unbekannt",
+      "formula_raw": "]a,b] = (a,b] := {xla < x b/\\x E IR} [a, b[ = [a, b) := {xla :<::x: < b /\\ x E IR}",
+      "score": 21
+    },
+    {
+      "page": 5,
+      "chapter": "Algebra",
+      "formula_raw": "33 Allgemeine Konstanten Klappe -1",
+      "score": 4
+    },
+    {
+      "page": 6,
+      "chapter": "Funktionen",
+      "formula_raw": "durchgesehen und punktuell aktualisiert. Die Allgemeinen Konstanten entsprechen der Revi-",
+      "score": 4
+    },
+    {
+      "page": 7,
+      "chapter": "Funktionen",
+      "formula_raw": "Eine logische Variable (Aussageform) p hat entweder den Wahrheits-",
+      "score": 5
+    },
+    {
+      "page": 7,
+      "chapter": "Funktionen",
+      "formula_raw": "Kontraposition Zur Subjunktion \"wenn p dann q\" ist logisch gleichwertig die Kontra-",
+      "score": 5
+    },
+    {
+      "page": 7,
+      "chapter": "Funktionen",
+      "formula_raw": "Induktions- Zu beweisen sind die Aussagen An mit n E N:",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "Darstellung • Aufzählung ihrer Elemente M = {a , b,c , ... }",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "von Mengen • Charakterisierung durch eine definierende Eigen- M={xlE(x)}",
+      "score": 7
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "M = {x Ix = 2n + 1 /\\ n E N}",
+      "score": 13
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "x = 2n + 1 und n eine natürliche Zahl ist\")",
+      "score": 7
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "lVI={}",
+      "score": 4
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "Mengen- Y<0rl'inigu11g: AUB= {x [ x E A oder x E B}",
+      "score": 7
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "operation.eo Durchschnitt: An B = {x I x E A und x E B}",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "A\\B={x[xEAundx~B}",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "Komplement: A={xjx~A}",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "Kommutativ- AUB=BUA",
+      "score": 6
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "gesetze AnB=BnA",
+      "score": 4
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "Assoziativ- AU (B u C) = (Au B) u C",
+      "score": 7
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "gesetze An (B n C) = (An B) n C",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "Distributiv- Au (B n C) = (Au B) n (Au C)",
+      "score": 7
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "gesetze An (B u C) =(An B) u (An C)",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "Produktmenge/ A x B := {(a,b) ja E A/\\b E B} A= {l,2,3,4} B= {1,2,3}",
+      "score": 17
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "kartesisches (a, b) heisst geordnetes Paar. A x B = {(l, l), (1,2), • • ·, (4,3)}",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "IR2 = IR x R zweidimensionaler Raum 2 ...... ~·····!\"..'! '\"•- ~.-..,. .",
+      "score": 9
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "IR3 = IR x IRx IR: dreidimensionaler Raum",
+      "score": 5
+    },
+    {
+      "page": 8,
+      "chapter": "Funktionen",
+      "formula_raw": "P(M) = {TIT CM}",
+      "score": 5
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "Operationen a • b = c (Multiplikator) (Multiplikand)",
+      "score": 5
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "a: b = c (b # 0)",
+      "score": 5
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "ab= C",
+      "score": 5
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "Operationen Radizieren Radikand Wurzelexponent Wurzel",
+      "score": 4
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "dritter Stufe ,!ja= C",
+      "score": 5
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "Logarithmieren Numerus Logarithmus- Logarithmus",
+      "score": 8
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "1ogba= c basis",
+      "score": 5
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "(Absolutwert) stand dieser Zahl vom Nullpunkt auf der ial= { -a falls a 0",
+      "score": 9
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "n = Pr' •p ~• • Pa3 • • • • • Pk•",
+      "score": 5
+    },
+    {
+      "page": 9,
+      "chapter": "Funktionen",
+      "formula_raw": "d(n) = (a1 + 1) • (a2 + 1) • ... • (01 + 1)",
+      "score": 11
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "ggT(a, b) • kgV(a, b) = a • b",
+      "score": 5
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "Division mit Rest a = q • b + r wobei O r < b. Es gilt: ggT(a, b) = ggT(b, r)",
+      "score": 11
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "B ruc h =--- a E Z heisst Zähler, b E Z\\ {O}h eisst Nenner.",
+      "score": 11
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "Gleichheit Zwei Brüche und sind genau dann gleich, wenn a • d = b • c",
+      "score": 7
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "Erweitern bzw. Erweitern: b a = a-k Kürzen: - a b = - a - :k (k#0)",
+      "score": 17
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "l D \\I i u v l i t s i i p o l n ik ation ~ n 1 ul t1 . p l ika t1 . on: ba • d c = W a • , c DI . V I . S J . O n: - a b : - d c = - a b · - d c = - a b - -c d",
+      "score": 25
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "Prozentwert W = G · _l!_ mit G: Grundwert, p: Prozentsatz",
+      "score": 5
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "Zinssatz Z=-- K-p•t K = Z-100 p=-- Z -100",
+      "score": 27
+    },
+    {
+      "page": 10,
+      "chapter": "Funktionen",
+      "formula_raw": "ur 1e e1t t g11t : t = - -- o er t = oder t m ahren",
+      "score": 15
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "Kommutativgesetze a+b=b+a a-b=b-a",
+      "score": 17
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "Assoziativgesetze (a + b) + c = a + (b + c) = a + b + c (a -b) -c = a -(b-c) = a • b • c",
+      "score": 37
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "Distributivgesetz a -(b + c) = (a -b) + (a -c) = a -b + a -c",
+      "score": 25
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "Ausklammern bzw. Ausklammern:3 a3y + l2axy2 = 3ay(a2 + 4xy)",
+      "score": 8
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "Ausmultiplizieren Ausmultiplizieren:( a + b)(x + y) = ax + ay + bx + by",
+      "score": 15
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "Binomische Formeln (a + b}2= (a + b)(a + b) = a2 + 2ab+ b2",
+      "score": 21
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "(a - b)2= (a - b)(a - b) = a2 - 2ab+ b2",
+      "score": 19
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "(a± b)3 = a3 ± 3a2b+3ab2 ±b3",
+      "score": 7
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "Faktorzerlegung a2 - b2 = (a + b)(a - b)",
+      "score": 11
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "a3 ± b3 = (a ± b)(a2 =f ab+ b2 )",
+      "score": 11
+    },
+    {
+      "page": 11,
+      "chapter": "Funktionen",
+      "formula_raw": "Trinomische Formel (a + b + c)2 = a2 + b2 + c2+ 2ab + 2ac + 2bc",
+      "score": 19
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "l\\littel lllu = -2-",
+      "score": 9
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Gewichtetes Mittel = r, s heissen Gewichte",
+      "score": 5
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Geometrisches m = /ab a,b>O a",
+      "score": 7
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Harmonisches = - 2 - ab Dreieck)",
+      "score": 8
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "zwischen Gleichheit gilt genau dann, wenn a = b ist.",
+      "score": 5
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "a:b=c:d {c> a·d=b-c",
+      "score": 11
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "x-Werte konstant ist. Y„",
+      "score": 5
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Yl = Y2 = ... = Yn = k d. h. Y = k . X",
+      "score": 21
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "nalität / Antipro- y-Werte konstant ist.",
+      "score": 9
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "d.h. y = -",
+      "score": 7
+    },
+    {
+      "page": 12,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Proportionalitäts- k heisst Proportionalitätskonstante.",
+      "score": 5
+    },
+    {
+      "page": 13,
+      "chapter": "Funktionen",
+      "formula_raw": "y = f(x) heisst auch Funktionsgleichung.",
+      "score": 5
+    },
+    {
+      "page": 13,
+      "chapter": "Funktionen",
+      "formula_raw": "D heisst Definitionsbereich (Definitions- Y = f(x)",
+      "score": 7
+    },
+    {
+      "page": 13,
+      "chapter": "Funktionen",
+      "formula_raw": "Nullstellen: Xi E D mit J(xi) = 0 f",
+      "score": 5
+    },
+    {
+      "page": 14,
+      "chapter": "Algebra",
+      "formula_raw": "LineareF unktion y = f(x) = mx + q y",
+      "score": 11
+    },
+    {
+      "page": 14,
+      "chapter": "Algebra",
+      "formula_raw": "ax+b=O a:;l:O",
+      "score": 7
+    },
+    {
+      "page": 14,
+      "chapter": "Algebra",
+      "formula_raw": "Gleichung 1 a1x + b1y = c1 X",
+      "score": 7
+    },
+    {
+      "page": 14,
+      "chapter": "Algebra",
+      "formula_raw": "Gleichung 2 a2x + b2y = c2",
+      "score": 6
+    },
+    {
+      "page": 14,
+      "chapter": "Algebra",
+      "formula_raw": "Spezialfälle Hat das LGS keine Lösung, so sind die zu- k",
+      "score": 5
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "Quadratische y = J(:i:)= a:1:2+ bx + c a cf 0",
+      "score": 13
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "y = a(x - u)2 + v mit Scheitel S('u I v)",
+      "score": 9
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "ax2 + bx + c = 0 X1 ,2 = - -b -- ± Jb --a 2 - - 4ac",
+      "score": 29
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "Die Diskriminante D = b2 - 4ac",
+      "score": 7
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "• D = 0: eine reelle Lösung: Doppellösung",
+      "score": 5
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "Spezialfälle c = 0: ax2 + bx = 0 <=x>( ax + b) = 0 y",
+      "score": 21
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "zwei reelle Lösungen: x, = 0. x2 = --",
+      "score": 13
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "b=O: ll.r 2 4-,·c() .11.~=±R",
+      "score": 11
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "Zerlegung in ax2 + bx + c = 0 = a(x - .ri)(x - x2)",
+      "score": 17
+    },
+    {
+      "page": 15,
+      "chapter": "Funktionen",
+      "formula_raw": "Linearfaktoren IIll . t X1 + X2 = -- b X1 • X2 = - C",
+      "score": 17
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "a-n := __!=_ a f=0 n E N",
+      "score": 15
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "Wurzel ifä = b <=>b \" = a b>O nEN\\{1}",
+      "score": 15
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "a¼ := ifä a'!i-:= v'afn = ( v'ä)m a>O efafii",
+      "score": 15
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "Potenzgesetze am . a\" = am+n am : an = am-n m, n E N",
+      "score": 13
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "a\"·b\"=(a·b)\" an:bn=(~r",
+      "score": 9
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "Ir = a <=>x = logba",
+      "score": 15
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "b: Logarithmenbasis b > 0 und b f= 1 log10 100 = 2",
+      "score": 13
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "a: Numerus a > 0 x: Logarithmus JoglO 10 = 1",
+      "score": 7
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "logba gelesen: \"Logarithmus zur Basis b von a\" log 1 1 0 0 fcj = -1",
+      "score": 13
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "logba ist diejenige Zahl, mit der man b potenzie- =",
+      "score": 9
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "log10 i~o -2",
+      "score": 5
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "Zudem gilt: logb(b 0 ) = a",
+      "score": 7
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "b = 10 Zehnerlogarithmus log x = lgx",
+      "score": 13
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "b = e natürlicher Logarithmus log 10 e x = lnx",
+      "score": 15
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "Logarithmen- logb(u • v) = logbu + logb v",
+      "score": 17
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "gesetze logb (~) = logbu - logb v",
+      "score": 13
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "logb(ur) = r • logbu",
+      "score": 9
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "_ log x _ lnx",
+      "score": 5
+    },
+    {
+      "page": 16,
+      "chapter": "Algebra",
+      "formula_raw": "Basiswechsel 1 o gbx- log 10 b - lnb",
+      "score": 9
+    },
+    {
+      "page": 17,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Sehei tel winke! Scheitelwinkel sind gleich gross: a = a'",
+      "score": 7
+    },
+    {
+      "page": 17,
+      "chapter": "Trigonometrie",
+      "formula_raw": "(h1[[h2)s ind gleich gross: a = a', 'Y = -y'",
+      "score": 11
+    },
+    {
+      "page": 17,
+      "chapter": "Trigonometrie",
+      "formula_raw": "sind gleich gross: ß' = 'Y, ß = 'Y1",
+      "score": 11
+    },
+    {
+      "page": 17,
+      "chapter": "Trigonometrie",
+      "formula_raw": "sind gleich gross: 'Y = -y'",
+      "score": 9
+    },
+    {
+      "page": 17,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Winkel: 'Y+ t5= 180°",
+      "score": 7
+    },
+    {
+      "page": 17,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Durchmesser AB, so ist LAGE= 90°. (Satz)",
+      "score": 4
+    },
+    {
+      "page": 18,
+      "chapter": "Trigonometrie",
+      "formula_raw": "ma nmb nmc = {U}",
+      "score": 5
+    },
+    {
+      "page": 18,
+      "chapter": "Trigonometrie",
+      "formula_raw": "w nwß nw = {J}",
+      "score": 5
+    },
+    {
+      "page": 18,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Aß : AC = T B : TaC ()",
+      "score": 5
+    },
+    {
+      "page": 18,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Höhenschnittpunkt: ha n hb n hc = {H }",
+      "score": 5
+    },
+    {
+      "page": 18,
+      "chapter": "Trigonometrie",
+      "formula_raw": "ha:hb=~:i;=b:a C",
+      "score": 9
+    },
+    {
+      "page": 18,
+      "chapter": "Trigonometrie",
+      "formula_raw": "(Schwerlinien) ander im Schwerpunkt: Sa n Sb n Sc = {S }",
+      "score": 5
+    },
+    {
+      "page": 18,
+      "chapter": "Trigonometrie",
+      "formula_raw": "SC:SMc=2:1 ()",
+      "score": 4
+    },
+    {
+      "page": 19,
+      "chapter": "Geometrie",
+      "formula_raw": "Flächeninhalt A=-=-g•h",
+      "score": 13
+    },
+    {
+      "page": 19,
+      "chapter": "Geometrie",
+      "formula_raw": "A = abc",
+      "score": 5
+    },
+    {
+      "page": 19,
+      "chapter": "Geometrie",
+      "formula_raw": "A = e·s s=---",
+      "score": 15
+    },
+    {
+      "page": 19,
+      "chapter": "Geometrie",
+      "formula_raw": "Heronsche A = Js(s - a)(s - b)(s - c)",
+      "score": 11
+    },
+    {
+      "page": 19,
+      "chapter": "Geometrie",
+      "formula_raw": "A= i?a(s-a) C)",
+      "score": 7
+    },
+    {
+      "page": 19,
+      "chapter": "Geometrie",
+      "formula_raw": "A = b · c · sin ac (\"\\,",
+      "score": 7
+    },
+    {
+      "page": 19,
+      "chapter": "Geometrie",
+      "formula_raw": "überführen, sind die Verschiebung (Translati- /\"V",
+      "score": 7
+    },
+    {
+      "page": 19,
+      "chapter": "Geometrie",
+      "formula_raw": "Kongruenzsätze Zwei Dreiecke sind kongruent, falls sie über-",
+      "score": 4
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Weitere Formeln Winkelhalbierende Wa = b + c ybcs(s - a) C·",
+      "score": 11
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Seitenhalbierende Sa= 2",
+      "score": 4
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Höhen ha = - a)(s - b)(s - c) ()",
+      "score": 11
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Flächeninhalt A=-2-=-2-",
+      "score": 17
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Um kreisradius r= - C A C B",
+      "score": 7
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Inkreisradius g = s - c",
+      "score": 7
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Satz des Sind a und b die Katheten eines rechtwink-",
+      "score": 5
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "a2 +b2 = c2",
+      "score": 6
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Höhensatz h2 = p· q",
+      "score": 5
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Kathetensatz a2 = c. p",
+      "score": 5
+    },
+    {
+      "page": 20,
+      "chapter": "Geometrie",
+      "formula_raw": "Gleichseitiges Höhe h = iv'3 A = -v'3",
+      "score": 11
+    },
+    {
+      "page": 21,
+      "chapter": "Geometrie",
+      "formula_raw": "Diagonalen e = AC, f = BD",
+      "score": 9
+    },
+    {
+      "page": 21,
+      "chapter": "Geometrie",
+      "formula_raw": "Mittelparallele m = a; c",
+      "score": 5
+    },
+    {
+      "page": 21,
+      "chapter": "Geometrie",
+      "formula_raw": "Flächeninhalt A = m · h = a; c h",
+      "score": 9
+    },
+    {
+      "page": 21,
+      "chapter": "Geometrie",
+      "formula_raw": "Flächeninhalt A = e / -·tE$·D ·-",
+      "score": 11
+    },
+    {
+      "page": 21,
+      "chapter": "Geometrie",
+      "formula_raw": "Parallelogramm Gegenüberliegende Seiten sind jeweils par-",
+      "score": 6
+    },
+    {
+      "page": 21,
+      "chapter": "Geometrie",
+      "formula_raw": "A=a•b",
+      "score": 5
+    },
+    {
+      "page": 21,
+      "chapter": "Geometrie",
+      "formula_raw": "A = a2 Diammmle = • 2",
+      "score": 9
+    },
+    {
+      "page": 22,
+      "chapter": "Geometrie",
+      "formula_raw": "o + ')' = ß + o= 180' rp= 2o",
+      "score": 17
+    },
+    {
+      "page": 22,
+      "chapter": "Geometrie",
+      "formula_raw": "Satz des Ptolemäus: ac + bd = ef",
+      "score": 6
+    },
+    {
+      "page": 22,
+      "chapter": "Geometrie",
+      "formula_raw": "A = J(s - a)(s - b)(s - c)(s - d)",
+      "score": 13
+    },
+    {
+      "page": 22,
+      "chapter": "Geometrie",
+      "formula_raw": "Illlt S = - = -----",
+      "score": 21
+    },
+    {
+      "page": 22,
+      "chapter": "Geometrie",
+      "formula_raw": "Tangentenviereck Ein Viereck mit Inkreis heisst Tangentenvier- C",
+      "score": 7
+    },
+    {
+      "page": 22,
+      "chapter": "Geometrie",
+      "formula_raw": "A = 11-s",
+      "score": 7
+    },
+    {
+      "page": 22,
+      "chapter": "Geometrie",
+      "formula_raw": "Sehnen-Tangentenvierecke. A",
+      "score": 5
+    },
+    {
+      "page": 23,
+      "chapter": "Geometrie",
+      "formula_raw": "Kreisumfang U = 21rr = 1rd 1r = 3.14159 ...",
+      "score": 13
+    },
+    {
+      "page": 23,
+      "chapter": "Geometrie",
+      "formula_raw": "Kreisinhalt A = 'll'T 2 = 4 1 1 rd2",
+      "score": 11
+    },
+    {
+      "page": 23,
+      "chapter": "Geometrie",
+      "formula_raw": "arca = 7l' , • a 1 rad = arc 57.3' ...",
+      "score": 9
+    },
+    {
+      "page": 23,
+      "chapter": "Geometrie",
+      "formula_raw": "Bogenlänge b = •r · a = r·arca",
+      "score": 9
+    },
+    {
+      "page": 23,
+      "chapter": "Geometrie",
+      "formula_raw": "(Kreisabschnitt) A = - r2(7l - ' - O -sm• o ) = -r2( arco -sm• a )",
+      "score": 21
+    },
+    {
+      "page": 23,
+      "chapter": "Geometrie",
+      "formula_raw": "Ellipse a, b heissen HalhllC'ruII A = 'lfab ffi",
+      "score": 5
+    },
+    {
+      "page": 24,
+      "chapter": "Geometrie",
+      "formula_raw": "Für k < 0 sind die Strecken ZP und ZP' ent-",
+      "score": 5
+    },
+    {
+      "page": 24,
+      "chapter": "Geometrie",
+      "formula_raw": "gegengesetzt gerichtet. Für k = - l ergeben",
+      "score": 7
+    },
+    {
+      "page": 24,
+      "chapter": "Geometrie",
+      "formula_raw": "sind die zentrische Streckung und die Dreh-",
+      "score": 4
+    },
+    {
+      "page": 24,
+      "chapter": "Geometrie",
+      "formula_raw": "lichkeit: k = 1",
+      "score": 5
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "PA:PB=QA:QB=m:n",
+      "score": 9
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "Stetige Teilung/ T teilt die Strecke AB = a nach dem gol- I \\",
+      "score": 9
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "(a - x) : x =x : a A x ya-xB",
+      "score": 9
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "x: lviajor, a - x: Minor, x = (v'5- l)a v5-1 = 0.618 ...",
+      "score": 15
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "Sehnensatz PA-PB= PC-PD",
+      "score": 8
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "Sekantensatz PA-PB=PC-PD",
+      "score": 8
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "Der Kathetensatz ist ein Spezialfall des Tan-",
+      "score": 4
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "Potenzsatz Sehnen-, Sekanten-und Tangentensatz kön-",
+      "score": 8
+    },
+    {
+      "page": 25,
+      "chapter": "Geometrie",
+      "formula_raw": "Die Potenz q = PA· PB eines Punktes P",
+      "score": 5
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Dreieck sin a: = Hypotenuse = h A_d",
+      "score": 11
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "Gesprochen: \"Sinus von a\" (/",
+      "score": 5
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "cosa: =",
+      "score": 6
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "tan a = Ankathete von a a",
+      "score": 7
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "sina = y",
+      "score": 7
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "cosa = x",
+      "score": 7
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "tana: = 'J!.. a f= 90° + k • 180°, k E Z",
+      "score": 13
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "x=r·COS<p y=r·sin<p",
+      "score": 13
+    },
+    {
+      "page": 26,
+      "chapter": "Trigonometrie",
+      "formula_raw": "r = Jx2 +y2 COS<=p - X sin<p = '!!..",
+      "score": 21
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Sinusfunktion sin: lR -t [-1, 1]; x >-* sinx",
+      "score": 15
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Symmetrieachsen: x = I + k11;k E z Symmetriezentren: (hlO)",
+      "score": 7
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Periodizität: sin(x + 2k7i) = sinx",
+      "score": 11
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Kosinusfunktion cos: lR -t [-1, 1]; x >-* COSX",
+      "score": 15
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Symmetrieachsen: x = k1r; k E Z Symmetriezentren: (~+hlO)",
+      "score": 7
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Periodizität: cos(x + 2k7i) = cosx Periodenlänge: 2;;.",
+      "score": 11
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Tangensfunktion tan: lR \\ + k1i,k E Z} lR; x >-* tanx",
+      "score": 13
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Symmetriezentren: (kI IO);k E Z As~rnpto~~n: x = I + k1i",
+      "score": 7
+    },
+    {
+      "page": 27,
+      "chapter": "Funktionen",
+      "formula_raw": "Periodizität: tan(x + k1r) = tanx Penodenlange: \"",
+      "score": 11
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "Sinussatz sin a sin ß siwy",
+      "score": 7
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "Kosinussatz a2 = v2 + c2 - 2 bc cos a",
+      "score": 13
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "Spezialfall: Für n = 90° stimmt der Ko-",
+      "score": 7
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "Flächeninhalt A = ~absin 1",
+      "score": 7
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "= 2r 2 sinn· sin • sm1 = - A",
+      "score": 15
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "sin2 a + cos2 a = 1 (\"trigonometrischer Pythagoras\")",
+      "score": 11
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "tana= -- -- - = 1 +tan 2a",
+      "score": 24
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "cosa cos2 n",
+      "score": 5
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "sin(90° - n) = cos a cos(90° - n) = sina",
+      "score": 21
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "sin(90° + a) = cosa cos(90° + a) = - sina",
+      "score": 23
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "sin(180° - n) = sinn cos(180° - n) = - cosn",
+      "score": 23
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "sin(l80° + n) = - sin a cos(180° + a) = - cosn",
+      "score": 25
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "Additionstheoreme sin(a ± ß) = sina · cosß ± cosa • sinß",
+      "score": 15
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "cos(a ± ß) = cosn • cosß =i=s inn• sinß",
+      "score": 21
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "tan(a ± ß) = tana ± tanß",
+      "score": 11
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "1 =i=ta na • tanß",
+      "score": 11
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "sin(2n) = 2sina • cosa",
+      "score": 10
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "cos(2a) = cos2 n - sin2 a = 2 cos2 a - 1 = 1 - 2 sin2 n",
+      "score": 29
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "tan(2n) = 2 tan n",
+      "score": 9
+    },
+    {
+      "page": 28,
+      "chapter": "Geometrie",
+      "formula_raw": "1- tan2a",
+      "score": 4
+    },
+    {
+      "page": 29,
+      "chapter": "Geometrie",
+      "formula_raw": "Allgemeine f (x) = a • sin(bx + c) (a,b > 0)",
+      "score": 9
+    },
+    {
+      "page": 29,
+      "chapter": "Geometrie",
+      "formula_raw": "Grundfunktion g(x) = sinx",
+      "score": 7
+    },
+    {
+      "page": 29,
+      "chapter": "Geometrie",
+      "formula_raw": "Wirkung von a allein: J(x) = o • sinx",
+      "score": 7
+    },
+    {
+      "page": 29,
+      "chapter": "Geometrie",
+      "formula_raw": "Wirkung von /J allein: f(x) = sin( x)",
+      "score": 9
+    },
+    {
+      "page": 29,
+      "chapter": "Geometrie",
+      "formula_raw": "Wirkung von c allein: J(x) = sin(x + ,')",
+      "score": 9
+    },
+    {
+      "page": 29,
+      "chapter": "Geometrie",
+      "formula_raw": "Harmonische f(t) = 1\\sin( t+ <po) (A,w > 0)",
+      "score": 9
+    },
+    {
+      "page": 29,
+      "chapter": "Geometrie",
+      "formula_raw": "Periodenlänge/Schwingungsdauer: T = 7r",
+      "score": 7
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "d = d = a2 + b2 + c2",
+      "score": 13
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "G=D=~ G=D=~",
+      "score": 17
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "S = 6a2 S = 2(ab + ac + bc)",
+      "score": 13
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "V= a3 V= abc",
+      "score": 9
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "S = 2G + S1 + S2 + •• · + Sn -,...-. ....,, ;.CJ._----_- -i M = 27irh",
+      "score": 33
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "V = Ch S = 27ir2 + 27irh",
+      "score": 11
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "V= 7ir2h",
+      "score": 5
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "S = G + A1 + A2 + · · · + An s2 = r2 + ii2",
+      "score": 19
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "1 M =7iTS",
+      "score": 5
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "V= -Gh",
+      "score": 7
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "3 S = 7iT2 + 7iTS",
+      "score": 7
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "V= ½7ir2h",
+      "score": 5
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "S = G + D + A1 + .. · + An s2= (r1 - r2) 2 + h2",
+      "score": 21
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "V= 3 1 h(G + ../GJ5 + D) M = 7is(r1 + r2)",
+      "score": 17
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "S=7i{ri+r~+s(r1 +r2))",
+      "score": 11
+    },
+    {
+      "page": 30,
+      "chapter": "Geometrie",
+      "formula_raw": "V= ½7ih(ri + r1r2 + r~)",
+      "score": 9
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "S = 41rr2",
+      "score": 5
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "V= 41rr 3 Q~ = ,.2 - h~",
+      "score": 11
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "3 M = 21rrh (Kugelzone)",
+      "score": 5
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "S = r.(2rh + QT+ Q~)",
+      "score": 9
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "(/ = h(2r - h) i = h(2r - h)",
+      "score": 15
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "M = 21rrh M = Ti{.JT",
+      "score": 9
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "(Kugelkappe) S = 2r.rh + r.Qr",
+      "score": 7
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "S = 21rrh+ 1rr/ V= : ? : - :._,.2h",
+      "score": 15
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "V= 7r h(31?r + h?- ) 3",
+      "score": 9
+    },
+    {
+      "page": 31,
+      "chapter": "Geometrie",
+      "formula_raw": "V= -abc",
+      "score": 7
+    },
+    {
+      "page": 33,
+      "chapter": "Geometrie",
+      "formula_raw": "tanten) aus der unendlichen Menge (Äqui- D ß'",
+      "score": 5
+    },
+    {
+      "page": 33,
+      "chapter": "Geometrie",
+      "formula_raw": "Zu jedem Vektor ä = AB =/-Ö existiert",
+      "score": 12
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "raden parallel sind, heissen kollinear. Sie sind -----H----g",
+      "score": 23
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "d. h. ä = k • - b oder - b = k1 · ä. fJ",
+      "score": 13
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "ä+ b=AB+BC=AC=c",
+      "score": 17
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "ä - ,; = ä + (-b) = 1",
+      "score": 15
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "so konstruiert, dass d + b = ä ergibt.",
+      "score": 7
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "Rechengesetze Es gelten ähnliche Regeln wie für das Rech-",
+      "score": 4
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "ä+b=b+ä",
+      "score": 9
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "ä + (b + c) = (ä + b) + c = ä +--+;; c",
+      "score": 25
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "u(ä + b) = uä + ub",
+      "score": 9
+    },
+    {
+      "page": 34,
+      "chapter": "Geometrie",
+      "formula_raw": "(u+v)a=ua+vä",
+      "score": 9
+    },
+    {
+      "page": 35,
+      "chapter": "Geometrie",
+      "formula_raw": "Prozentsatz • Streifenlänge = Länge des",
+      "score": 4
+    },
+    {
+      "page": 35,
+      "chapter": "Geometrie",
+      "formula_raw": "Prozentsatz = . .",
+      "score": 4
+    },
+    {
+      "page": 36,
+      "chapter": "Geometrie",
+      "formula_raw": "n1 + n2 + ... + ni + ... + nk = n",
+      "score": 15
+    },
+    {
+      "page": 36,
+      "chapter": "Geometrie",
+      "formula_raw": "Relative Häufigkeit hi = absolute Häufigkeit von Wi ni Wi ni hi hi %",
+      "score": 4
+    },
+    {
+      "page": 36,
+      "chapter": "Geometrie",
+      "formula_raw": "h1 + h2 + ... + hi + ... + hk = 1 AB 1 0.1 10",
+      "score": 14
+    },
+    {
+      "page": 36,
+      "chapter": "Geometrie",
+      "formula_raw": "X= - • (n1 •m1 +n2 ·m2 + ... +nr·mr)",
+      "score": 13
+    },
+    {
+      "page": 37,
+      "chapter": "Geometrie",
+      "formula_raw": "geradem n. Bei geradem n ist der Median das ll = 4",
+      "score": 5
+    },
+    {
+      "page": 37,
+      "chapter": "Geometrie",
+      "formula_raw": "sche Varianz) te aller Differenzen zwischen den einzelnen Er-",
+      "score": 4
+    },
+    {
+      "page": 37,
+      "chapter": "Geometrie",
+      "formula_raw": "s2= - 1 -. (Cx1- xl + ... + (xn - x)2l",
+      "score": 17
+    },
+    {
+      "page": 37,
+      "chapter": "Geometrie",
+      "formula_raw": "s2= _l_ · (n1(m1 - x)2 + ... + nr(mr -x)2)",
+      "score": 13
+    },
+    {
+      "page": 37,
+      "chapter": "Geometrie",
+      "formula_raw": "Standard- Die Standardabweichung s ist die Quadratwurzel",
+      "score": 9
+    },
+    {
+      "page": 37,
+      "chapter": "Geometrie",
+      "formula_raw": "R = Xmax - Xmin",
+      "score": 7
+    },
+    {
+      "page": 38,
+      "chapter": "Funktionen",
+      "formula_raw": "fl= {J(K,KZ,ZK,ZZ}",
+      "score": 5
+    },
+    {
+      "page": 38,
+      "chapter": "Funktionen",
+      "formula_raw": "Ereignis Eine Teilmenge E des Ergebnisraumes n WJ = KK W3 = ZK",
+      "score": 9
+    },
+    {
+      "page": 38,
+      "chapter": "Funktionen",
+      "formula_raw": "heisst Ereignis. w2=KZ = ZZ",
+      "score": 8
+    },
+    {
+      "page": 38,
+      "chapter": "Funktionen",
+      "formula_raw": "EUE=f!",
+      "score": 5
+    },
+    {
+      "page": 38,
+      "chapter": "Funktionen",
+      "formula_raw": "Unvereinbare Zwei Ereignisse A und B heissen unvereinbar, wenn gilt: An B = { }.",
+      "score": 5
+    },
+    {
+      "page": 38,
+      "chapter": "Funktionen",
+      "formula_raw": "P(E) = Anzahl der für E günstigen Ergebnisse =",
+      "score": 9
+    },
+    {
+      "page": 38,
+      "chapter": "Funktionen",
+      "formula_raw": "2) P(rl) = 1 das sichere Ereignis hat die Wahrscheinlichkeit \"eins\"",
+      "score": 5
+    },
+    {
+      "page": 38,
+      "chapter": "Funktionen",
+      "formula_raw": "P(A U B) = P(A) + P(B)",
+      "score": 7
+    },
+    {
+      "page": 39,
+      "chapter": "Funktionen",
+      "formula_raw": "P(A U B) = P(A) + P(B) - P(A n B)",
+      "score": 9
+    },
+    {
+      "page": 39,
+      "chapter": "Funktionen",
+      "formula_raw": "Wahrscheinlichkeit P(E) = 1- P(E) 101",
+      "score": 7
+    },
+    {
+      "page": 39,
+      "chapter": "Funktionen",
+      "formula_raw": "P(A n B) = P(B) • P(A[B) = P(A) • P(B[A)",
+      "score": 9
+    },
+    {
+      "page": 39,
+      "chapter": "Funktionen",
+      "formula_raw": "B sind unabhängige Ereignisse), dann gilt spe-",
+      "score": 5
+    },
+    {
+      "page": 39,
+      "chapter": "Funktionen",
+      "formula_raw": "P(A n B) = P(A) • P(B)",
+      "score": 5
+    },
+    {
+      "page": 39,
+      "chapter": "Funktionen",
+      "formula_raw": "unabhängig, wenn P(A n B) = P(A) • P(B) ist.",
+      "score": 5
+    },
+    {
+      "page": 40,
+      "chapter": "Geometrie",
+      "formula_raw": "n=O 1 \"y..-,;:,",
+      "score": 7
+    },
+    {
+      "page": 40,
+      "chapter": "Geometrie",
+      "formula_raw": "(Randwerte) n=4 4",
+      "score": 5
+    },
+    {
+      "page": 40,
+      "chapter": "Geometrie",
+      "formula_raw": "n=5 5",
+      "score": 5
+    },
+    {
+      "page": 40,
+      "chapter": "Geometrie",
+      "formula_raw": "(a+W =(~)an+ an-1b+ ... + (;) an-kbk + ... + (~) bn",
+      "score": 21
+    },
+    {
+      "page": 41,
+      "chapter": "Geometrie",
+      "formula_raw": "Abstand P1P2 = - x1) 2 + (Y2- Y1) 2",
+      "score": 12
+    },
+    {
+      "page": 41,
+      "chapter": "Geometrie",
+      "formula_raw": "zweier Punkte = + (L.\\y)2",
+      "score": 7
+    },
+    {
+      "page": 41,
+      "chapter": "Geometrie",
+      "formula_raw": "Normalform g: y = mx + q y",
+      "score": 7
+    },
+    {
+      "page": 41,
+      "chapter": "Geometrie",
+      "formula_raw": "Steigung m = --- = - = tan cp",
+      "score": 23
+    },
+    {
+      "page": 41,
+      "chapter": "Geometrie",
+      "formula_raw": "Koordinatenform g: ax + by+ c = 0",
+      "score": 9
+    },
+    {
+      "page": 41,
+      "chapter": "Geometrie",
+      "formula_raw": "Achsenabschnitts- g: - X +- y = 1",
+      "score": 13
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "Abstande ines Für eine Gerade g: ax+by+c = 0 und einen g",
+      "score": 11
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "d= 1ax1 +by1 +",
+      "score": 9
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "zwischen zwei den Geraden g1: y = m1x + q1 und",
+      "score": 7
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "Geraden 92: y = m2x + q2 gilt:",
+      "score": 7
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "Spezialfälle 91119{2' } m1 = m2 und X",
+      "score": 5
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "911.92 {'} m2 = -- (m1-10)",
+      "score": 10
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "Gleichung des k: x2 +y2 = r2 y",
+      "score": 7
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "Allgemeine k: x 2 + y2 + ax + by + c = 0 y",
+      "score": 13
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "und r = ½ a2 + b2 - 4c der Radius von k.",
+      "score": 9
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "Kreispunkt t: (xo - u)(x - u) + (y0 -v)(y - v) = r 2",
+      "score": 15
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "Parameterform x u +r ·cosc,o",
+      "score": 5
+    },
+    {
+      "page": 42,
+      "chapter": "Geometrie",
+      "formula_raw": "y= v+r·sinc,o",
+      "score": 9
+    },
+    {
+      "page": 43,
+      "chapter": "Funktionen",
+      "formula_raw": "Abstandseigenschaft: P Fi + P F2 = 2a",
+      "score": 9
+    },
+    {
+      "page": 43,
+      "chapter": "Funktionen",
+      "formula_raw": "Abstandseigenschaft: IPF1 - PF2 1 = 2a",
+      "score": 8
+    },
+    {
+      "page": 44,
+      "chapter": "Funktionen",
+      "formula_raw": "y2 = 2px x2 y2",
+      "score": 4
+    },
+    {
+      "page": 44,
+      "chapter": "Funktionen",
+      "formula_raw": "liucare Exzentrizität e = J a2 - b2 e = Ja2 +b2",
+      "score": 13
+    },
+    {
+      "page": 44,
+      "chapter": "Funktionen",
+      "formula_raw": "numerische c=l c = - e > 1",
+      "score": 11
+    },
+    {
+      "page": 44,
+      "chapter": "Funktionen",
+      "formula_raw": "p=- p = d(F, l) p=-",
+      "score": 17
+    },
+    {
+      "page": 45,
+      "chapter": "Funktionen",
+      "formula_raw": ",=DP=xC.+yC,+,e. = r",
+      "score": 17
+    },
+    {
+      "page": 45,
+      "chapter": "Funktionen",
+      "formula_raw": "Länge (Betrag) 1rJ = r = x2 + y2 + z2 ' -- l y",
+      "score": 17
+    },
+    {
+      "page": 45,
+      "chapter": "Funktionen",
+      "formula_raw": "a=axex+ayey+azez:= Oy",
+      "score": 13
+    },
+    {
+      "page": 45,
+      "chapter": "Funktionen",
+      "formula_raw": "L ei ä n n e g s e V ( e B k e to tr r a s g ) 1a=1 a= IPi13=2 Pi I P 2 = Jai + a~ + a;",
+      "score": 21
+    },
+    {
+      "page": 45,
+      "chapter": "Funktionen",
+      "formula_raw": "einer Strecke -r+A f= 2 1 ( . r . 1 .. + r2 .... )",
+      "score": 11
+    },
+    {
+      "page": 45,
+      "chapter": "Funktionen",
+      "formula_raw": "XM = X -- 1 2 + -, X2 !IM= - !/ 2 1 - + , !/2 ZM = - Z 2 1 - + Z2",
+      "score": 37
+    },
+    {
+      "page": 46,
+      "chapter": "Geometrie",
+      "formula_raw": "Skalarprodukt ä • b = a • b • cos cp= a • ba",
+      "score": 11
+    },
+    {
+      "page": 46,
+      "chapter": "Geometrie",
+      "formula_raw": "Spezialfall Für ä # ä, b # Ö gilt: ä · b = 0 {c} äj_ b",
+      "score": 5
+    },
+    {
+      "page": 46,
+      "chapter": "Geometrie",
+      "formula_raw": "c = 1ä x bl = a •b •s in cpe ntspricht dem Flächen-",
+      "score": 11
+    },
+    {
+      "page": 46,
+      "chapter": "Geometrie",
+      "formula_raw": "Spatprodukt (ä, b, c) = (äx b)-c= (b xc)-ä = (ex ä)-b",
+      "score": 19
+    },
+    {
+      "page": 47,
+      "chapter": "Geometrie",
+      "formula_raw": "Parameterform g: r = ro +t- ä",
+      "score": 9
+    },
+    {
+      "page": 47,
+      "chapter": "Geometrie",
+      "formula_raw": "Gegenseitige Lage g: r =Po+ t. ä, h: r = 7fo + s. b h g",
+      "score": 13
+    },
+    {
+      "page": 47,
+      "chapter": "Geometrie",
+      "formula_raw": "COS<p=-;;:T",
+      "score": 9
+    },
+    {
+      "page": 47,
+      "chapter": "Geometrie",
+      "formula_raw": "7i und b sind die Richtungsvektoren der bei-",
+      "score": 5
+    },
+    {
+      "page": 48,
+      "chapter": "Geometrie",
+      "formula_raw": "Parameterform c:: r= ro+u-ä +v·-,;",
+      "score": 13
+    },
+    {
+      "page": 48,
+      "chapter": "Geometrie",
+      "formula_raw": "und b 1-0 sind zwei nicht kollineare Rich-",
+      "score": 7
+    },
+    {
+      "page": 48,
+      "chapter": "Geometrie",
+      "formula_raw": "Koordinatenform c:: Ax+By+Cz+D = 0",
+      "score": 11
+    },
+    {
+      "page": 48,
+      "chapter": "Geometrie",
+      "formula_raw": "Achsenabschnittsform c:: - X + - y b + -Z = 1",
+      "score": 15
+    },
+    {
+      "page": 48,
+      "chapter": "Geometrie",
+      "formula_raw": "Normalenform E:: n · (r - ro) = 0",
+      "score": 7
+    },
+    {
+      "page": 48,
+      "chapter": "Geometrie",
+      "formula_raw": "Hessesche c:: Ax+By+Cz+D =0 X z",
+      "score": 11
+    },
+    {
+      "page": 48,
+      "chapter": "Geometrie",
+      "formula_raw": "z.B. Ax + By + D = 0 (C = 0)",
+      "score": 13
+    },
+    {
+      "page": 48,
+      "chapter": "Geometrie",
+      "formula_raw": "z.B. By + D = 0 (A = C = 0).",
+      "score": 15
+    },
+    {
+      "page": 49,
+      "chapter": "Geometrie",
+      "formula_raw": "d= 1Ax1+ By1 +Cz1 +DI",
+      "score": 11
+    },
+    {
+      "page": 49,
+      "chapter": "Geometrie",
+      "formula_raw": "sin1= --",
+      "score": 10
+    },
+    {
+      "page": 49,
+      "chapter": "Geometrie",
+      "formula_raw": "K: (r- rM). (r- rM) = R2",
+      "score": 9
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "J(-x) = J(x)",
+      "score": 7
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "f(-x) = -f(x)",
+      "score": 9
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "Periodizität f (x + k • p) = f (x) p: Periode; k E Z",
+      "score": 7
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "Unter der Verkettung von f und g versteht f(x) = 3x2 - 2, g(x) = ../x",
+      "score": 13
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "man die Funktion: f o g: x H f(g(x)), J(g(x)) ==3 x - 2",
+      "score": 11
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "wobei g(x) E D(J); gesprochen: \"f nach g\" g(J(x)) = - 2",
+      "score": 7
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "Umkehrfunktion Eine Funktion y ==f (x) heisst umkehrbar, y",
+      "score": 9
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "f- 1 ; Y H X Y = f(x) {'?X= J-1(y)",
+      "score": 13
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "den y = x, falls in der Funktionsgleichung für",
+      "score": 5
+    },
+    {
+      "page": 50,
+      "chapter": "Funktionen",
+      "formula_raw": "(y ==J -1(x); x ist die unabhängige Variable).",
+      "score": 11
+    },
+    {
+      "page": 51,
+      "chapter": "Funktionen",
+      "formula_raw": "trisch zur y-Achse sind.",
+      "score": 5
+    },
+    {
+      "page": 51,
+      "chapter": "Funktionen",
+      "formula_raw": "funktionen X 1-'; bx mit D = ]R_ W = JR_+",
+      "score": 13
+    },
+    {
+      "page": 51,
+      "chapter": "Funktionen",
+      "formula_raw": "Logarithmus- . b > 0 und b i=1",
+      "score": 9
+    },
+    {
+      "page": 51,
+      "chapter": "Funktionen",
+      "formula_raw": "funktionen xHlogbx mit D=IR+ W=R",
+      "score": 13
+    },
+    {
+      "page": 51,
+      "chapter": "Funktionen",
+      "formula_raw": "ihre Umkehr- sind sie umkehrbar.",
+      "score": 4
+    },
+    {
+      "page": 51,
+      "chapter": "Funktionen",
+      "formula_raw": "Hl i'1'11-..: [-1, 1) [O1.1 ') :r ....+a rr cos .r",
+      "score": 9
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Ganzrationale = akxk ak: reelle Koeffizienten",
+      "score": 4
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Funktionen k=O (an i-0)",
+      "score": 7
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "p3(x) = O.lx3 - 0.2x2 - 2x + 3",
+      "score": 11
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "y = 3x - 2 = 3x + 9 + 9(3x - 2)",
+      "score": 17
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Ga: Grösse zur Zeit t = 0",
+      "score": 5
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Exponentielles G(t) = Go · ect GGrcnz",
+      "score": 5
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Begrenztes G(t) =Go+ (Gorenz - Go)(l - e-ct)",
+      "score": 13
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Begrenzte G(t) = Gorenz+ (Go - Gorenz)e-ct",
+      "score": 11
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Logistisches G(t) = Go· Gorenz",
+      "score": 7
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Endliche Reihe Sn = a1 + a2 + a3 + ... + an",
+      "score": 12
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Explizit: ak = a1 + (k - l)d d #-0",
+      "score": 11
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "Rekursiv:a k+I = ak + d",
+      "score": 9
+    },
+    {
+      "page": 52,
+      "chapter": "Funktionen",
+      "formula_raw": "A Re ri i t h h e m /S e u ti m sc m he e der Sn= n- a - 1+ 2 a - n = a1n + -n-(n'-- 2 -- l) - d '- k",
+      "score": 35
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "Explizit: ak = a1 • l- 1",
+      "score": 7
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "Rekursiv: ak+l = ak • q",
+      "score": 7
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "s= !im Sn=~ falls lql< 1",
+      "score": 9
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "Zinseszins r=l+L 1",
+      "score": 7
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "Regelmässige Kn = Korn + b-- nachschüssig ---s--,",
+      "score": 21
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "Kn = Korn+ br-- vorschüssig",
+      "score": 10
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "Potenzsummen 1 + 2 + 3 + ... + n = = 2n(n + 1)",
+      "score": 19
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "13 + 23 + ... + n3 = k 3 = 1 n2 (n + 1) . - , = (n - ( - 11 - - 1-1 )·;",
+      "score": 33
+    },
+    {
+      "page": 53,
+      "chapter": "Funktionen",
+      "formula_raw": "12+a2+ ... +{2n- l)2 = E<»- l)2 = n(2n- ~{211-r ll",
+      "score": 23
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Jim an= a",
+      "score": 5
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Rechnen mit Für Jim an. = a und für lim bn = b gilt:",
+      "score": 9
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Jim (an+ bn) = a + b !im (c ·an)= c • a",
+      "score": 13
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "!im (an.· bn) = a • b Jim (an) = wobei b # 0",
+      "score": 9
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Spezielle Jim =e=2.718 ... e heisst eulersche Zahl",
+      "score": 9
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Jim (1 + ::) n = ex X E R",
+      "score": 7
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Jim an = 0 für lal < 1 Jim y'a = 1 für a > 0",
+      "score": 9
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "wenn die Folge der Summen Sn = ak konvergent ist, d. h. !im Sn = s",
+      "score": 9
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "k=l n--->cx,",
+      "score": 11
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Konvergenz einer Reihe ist: Jim an = 0.",
+      "score": 4
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Funktion Jim Xn = Xo und Xn f; xo stets gilt: Jim J(xn) = g",
+      "score": 9
+    },
+    {
+      "page": 54,
+      "chapter": "Funktionen",
+      "formula_raw": "Funktion lim J(x) = f(xo)",
+      "score": 5
+    },
+    {
+      "page": 55,
+      "chapter": "Funktionen",
+      "formula_raw": "ß.r = 6.x := 6.x",
+      "score": 9
+    },
+    {
+      "page": 55,
+      "chapter": "Funktionen",
+      "formula_raw": "x=xo",
+      "score": 5
+    },
+    {
+      "page": 55,
+      "chapter": "Funktionen",
+      "formula_raw": "drückt die momentane oder lokale Ände-",
+      "score": 4
+    },
+    {
+      "page": 55,
+      "chapter": "Funktionen",
+      "formula_raw": "mit h = 6.x = x - xo 'FO",
+      "score": 11
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "ms= f(xo + Llx) - f(xo) = tanß = 6.y",
+      "score": 19
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "Die Tangentensteigung an der Stelle Xo be-",
+      "score": 4
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "mt = f'(xo) = tan a",
+      "score": 11
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "J\"(x) = !im f'(x + Llx) - f'(x) = (f'(x))'",
+      "score": 13
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "!\"'(x) = (J\"(x))', ... , 1<nl(x) = u<n-l)(x))'",
+      "score": 11
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "Faktorregel Ein konstanter Faktor bleibt beim Differenzie-",
+      "score": 4
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "Funktion k = f o g: g f",
+      "score": 5
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "k(x) = f(u) mit u = g(x) u ~y",
+      "score": 9
+    },
+    {
+      "page": 56,
+      "chapter": "Funktionen",
+      "formula_raw": "=>k '( x ) = !'( u ) • g '( x ) oder -dy = -dy • -du",
+      "score": 19
+    },
+    {
+      "page": 57,
+      "chapter": "Funktionen",
+      "formula_raw": "den Verlauf der Kurve mit der Gleichung y = f(x) (vgl. §.Q,1 2.1).",
+      "score": 5
+    },
+    {
+      "page": 57,
+      "chapter": "Funktionen",
+      "formula_raw": "Steigen bzw. Fallen f'(x) > 0 in I =>f ist monoton wachsend",
+      "score": 5
+    },
+    {
+      "page": 57,
+      "chapter": "Funktionen",
+      "formula_raw": "in I. f'(x) < 0 in I =>f ist monoton",
+      "score": 5
+    },
+    {
+      "page": 57,
+      "chapter": "Funktionen",
+      "formula_raw": "Krümmungs- f\"(x) > 0 in I =>D ie Kurve ist in I li11k~-",
+      "score": 9
+    },
+    {
+      "page": 57,
+      "chapter": "Funktionen",
+      "formula_raw": "f' (xo) = 0 /\\ f\" (xo) < 0 => f hat bei xo",
+      "score": 11
+    },
+    {
+      "page": 57,
+      "chapter": "Funktionen",
+      "formula_raw": "f'(xo)=0/\\f\"(xo)>0 => f hat bei xo T",
+      "score": 11
+    },
+    {
+      "page": 58,
+      "chapter": "Funktionen",
+      "formula_raw": "2) Das Intervall [a,b] wird fortgesetzt halbiert: !::i.x = -- mit n = 2'.",
+      "score": 13
+    },
+    {
+      "page": 58,
+      "chapter": "Funktionen",
+      "formula_raw": "On = (!(xi)+ f(x2) + ... + f (xn))!::i.x",
+      "score": 11
+    },
+    {
+      "page": 58,
+      "chapter": "Funktionen",
+      "formula_raw": "bf (x)dx := lim Un = lim On",
+      "score": 9
+    },
+    {
+      "page": 58,
+      "chapter": "Funktionen",
+      "formula_raw": "bestimmten [ f(x)dx = - f(x)dx [ f(x)dx = 0",
+      "score": 11
+    },
+    {
+      "page": 58,
+      "chapter": "Funktionen",
+      "formula_raw": "f(x)dx + [ f(x)dx = [ f(x)dx (a, b, c E IR)",
+      "score": 7
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "I'(x) == J(x). Das heisst, Integrieren und Differenzieren sind Umkehr-",
+      "score": 13
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "Stammfunktion F heisst Stammfunktion zur Funktion f, falls F'(x) == J(x). Zwei",
+      "score": 9
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "Konstante: F(x) ==G (x) + C (CE IR). Jede Integralfunktion I von f ist",
+      "score": 13
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "f(x)dx ==F (x) + C",
+      "score": 11
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "f(x)dx == [F(x)]: ==F (b) - F(a)",
+      "score": 19
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "Integrationsregeln für bestimmte Integrale (gelten auch für unbesti=te Integrale)",
+      "score": 6
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "S D u if m fe m re e n z b zw. b (f(x) ± g(x))dx = b f(x)dx ± 1b a g(.r)d.r",
+      "score": 5
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "Konstanter Faktor c • f(x)dx = c • 1b f(x)dx (c ER.)",
+      "score": 7
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "J'(x) • g(x)dx = [J(x) • g(x)]: - J(.r) • g'(.r)d.r",
+      "score": 7
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "Substitution b f(u(x)) • u'(x)dx = La<•J>(z) dz mit u(.r) =.:",
+      "score": 9
+    },
+    {
+      "page": 59,
+      "chapter": "Funktionen",
+      "formula_raw": "Logarithmisch Integration = [1n /(z) ] :",
+      "score": 9
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "--= 1 - x -2 - 1 =x -1 lnlxl",
+      "score": 23
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "2/x = 2x 1 vx=x½ - 3 x >3",
+      "score": 13
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "cosx sinx -cosx",
+      "score": 8
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "-sinx cosx sinx",
+      "score": 8
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "l+tan 2 x= -- 1 tanx -lnlcosxl",
+      "score": 21
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "lna-ax a\"' -",
+      "score": 7
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "- lnlxl x(ln lxl - 1)",
+      "score": 9
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "Joga lxl - -(In lxl - 1) = x(loga !xi - Joga e)",
+      "score": 15
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "lna-x 1n a",
+      "score": 5
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "arcsinx x • arcsinx +",
+      "score": 7
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "- arccosx x · arccosx - J1 - x2",
+      "score": 11
+    },
+    {
+      "page": 60,
+      "chapter": "Funktionen",
+      "formula_raw": "1 arctanx x · arc tan x - 1 In ( 1 + x 2 )",
+      "score": 9
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "A = J b f(x)dx X",
+      "score": 5
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "den x = a bzw. x = b.",
+      "score": 9
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "A = f(x)dx\\",
+      "score": 5
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "A = J (f(x) - g(x))dx",
+      "score": 7
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "x-Achse sowie den beiden Geraden x = a",
+      "score": 7
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "und x = b liegende Fliicll('11,Ii ick um die",
+      "score": 5
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "V= 1r • f (f(x))2dx",
+      "score": 5
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "J f(x)dx = (b - a) • !(<)",
+      "score": 7
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "tion s: v(t) = d:~t) = s(t)",
+      "score": 9
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "s(t) = ½at+2 11o+t so",
+      "score": 9
+    },
+    {
+      "page": 61,
+      "chapter": "Funktionen",
+      "formula_raw": "v(t) = ä(t) = at + tJo a(t) = i(t) = a",
+      "score": 19
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "Entwicklung f(x) = f(xo)+- f'(xo - ) ( x-xo)+-- f\"(xo - ) ( x-xo) 2 + ... +- J<n\\i:o - ) ( x-xo) n +Rn",
+      "score": 33
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "~Iaclaurin- Wird die Taylorreihe an der Stelle x = 0 entwickelt, so nennt man sie",
+      "score": 7
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "f(x) = f(O) + l!x + ~x + ... + ---;:;r-x + Rn",
+      "score": 23
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "Potenzreihen ± 1 x = 1 =i=x + x 2 '.f x 3 + . . . mit JxJ < 1",
+      "score": 17
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "sinx = 11. - 13 . + 15 . - . . . mit x E lR",
+      "score": 13
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "cosx = 1- + - +... mit x E lR",
+      "score": 15
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "ex = 1 + + + + . . . mit x E lR",
+      "score": 13
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "e'x = 1+--- - -+-+- - (vgl. §Q: Exponentialfunk-",
+      "score": 29
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "= cos x + i sin x x im Bogenmass",
+      "score": 11
+    },
+    {
+      "page": 62,
+      "chapter": "Funktionen",
+      "formula_raw": "--::::1:::i=x sinx::::::x ex::::::l+x",
+      "score": 13
+    },
+    {
+      "page": 63,
+      "chapter": "Funktionen",
+      "formula_raw": "gressionsgerade g: y = mx+q hat folgende",
+      "score": 7
+    },
+    {
+      "page": 63,
+      "chapter": "Funktionen",
+      "formula_raw": "X= ¾(x1 + X2 + ... + Xn)",
+      "score": 11
+    },
+    {
+      "page": 63,
+      "chapter": "Funktionen",
+      "formula_raw": "fi = ¾(Y1+ Y2+ · · · + Yn)",
+      "score": 10
+    },
+    {
+      "page": 63,
+      "chapter": "Funktionen",
+      "formula_raw": "m i=l f (x; -x)2 i= E l 71 xT- nX2",
+      "score": 13
+    },
+    {
+      "page": 63,
+      "chapter": "Funktionen",
+      "formula_raw": "i=l i=l",
+      "score": 9
+    },
+    {
+      "page": 63,
+      "chapter": "Funktionen",
+      "formula_raw": "Tzy = -,==:::::::i=:=l ==--:====",
+      "score": 51
+    },
+    {
+      "page": 63,
+      "chapter": "Funktionen",
+      "formula_raw": "i=l i=l y",
+      "score": 9
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "X = x; bezeichnet das Ereignis, das alle As H 11",
+      "score": 5
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "X(w) = X;",
+      "score": 5
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "verteilung einer (x;, P(X = x;)).",
+      "score": 5
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "P(X=x 1)",
+      "score": 5
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "keitsfunktion x; (i = 1, 2, ... , n) der Zufallsgrösse X 9",
+      "score": 5
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "einer Zufallsgrösse die Wahrscheinlichkeit p; = P(X = x;)",
+      "score": 9
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "E(X) = Ex;P(X=x;) = LX;p; = µ",
+      "score": 17
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "i=l i=l",
+      "score": 9
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "Varianz einer Var(X) = L(x; - µ)2 P(X = x;)",
+      "score": 11
+    },
+    {
+      "page": 64,
+      "chapter": "Funktionen",
+      "formula_raw": "Standardabweichung u = JVar(X)",
+      "score": 7
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "P(X = xk-) = ¼ u nd",
+      "score": 11
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "P(X = x) = 0 falls x verschieden ist von",
+      "score": 9
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "X1 = 1, X2 = 2, X3 = 3, ... , Xn = n gilt:",
+      "score": 17
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "11 = -2- u2 =-- 12",
+      "score": 16
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "Ergebnisraum n = {O,1 }",
+      "score": 5
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "wobei die einzelnen Wiederholungen unab-",
+      "score": 4
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "hängig voneinander sind, d. h., das Ergeb-",
+      "score": 5
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "nis eines einzelnen Bernoulli-Versuchs hängt",
+      "score": 4
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "Bernoulli-Versuche ausgegangen sind. Die",
+      "score": 4
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "p(X = k) = (;) ]l(l - p)n-k",
+      "score": 13
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "Binomialverteilung Die Menge der geordneten Paare P(X=k)",
+      "score": 5
+    },
+    {
+      "page": 65,
+      "chapter": "Funktionen",
+      "formula_raw": "µ = np a2= np(l - p) 0 1 !• 4 5",
+      "score": 11
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "das zu prüfende Modell p = Po-",
+      "score": 7
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "Entscheidungsregel Die Nullhypothese Ho wird verworfen, falls a = 0.1%",
+      "score": 5
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "X im Verwerfungsbereich V zum Signifikanz- Q= 1%",
+      "score": 7
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "a=5%",
+      "score": 5
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "Verwerfungsbereich a) Bestimme c so, dass P(x=k)",
+      "score": 5
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "für den Test P(X 2 c) = In: (f )pb(l - Pot-i ::;*a",
+      "score": 11
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "b) Bestimme c so, dass P(x=k)",
+      "score": 5
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "P(X::; c) = IC: (f )ph(l - Pot-i ::;*a",
+      "score": 11
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "P(X::; c1) = I: (f )pb(I - Pot-i ::;*",
+      "score": 11
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "P(x=k)",
+      "score": 5
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "P(X 2 c2) = (f }pb(l - Pot-i ::;*",
+      "score": 11
+    },
+    {
+      "page": 66,
+      "chapter": "Funktionen",
+      "formula_raw": "i=c2",
+      "score": 5
+    },
+    {
+      "page": 67,
+      "chapter": "Funktionen",
+      "formula_raw": "durchgeführt, wobei die einzelnen Wieder-",
+      "score": 4
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "Normalform einer z = .r + iy x,y E IR",
+      "score": 7
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "x = Re(z)",
+      "score": 5
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "y = Im(z)",
+      "score": 5
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "mit i2 = -1 X R",
+      "score": 7
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "Betrag einer lzl= Jx2 +y2 C",
+      "score": 7
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "Konjugierte einer z=x-iy",
+      "score": 7
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "Potenzen der i2=-1 i3=-i i4=1 i5=i i6=-1",
+      "score": 27
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "Rechenregeln Für z1 = X1 + iy1 z2 = x2 + iy2",
+      "score": 14
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": ": 1 ± z2 = (x1 ± x2) + i(y1 ± Y2)",
+      "score": 7
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "z1 • z2 = (x1 + iy1)(x2 + iy2)",
+      "score": 8
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "ZJ + Z2 = ZJ + Z2",
+      "score": 8
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "z • z = lz2l = x2 + y2 = Jz2J",
+      "score": 15
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "z+z = 2x = 2 Re(z)",
+      "score": 11
+    },
+    {
+      "page": 68,
+      "chapter": "Algebra",
+      "formula_raw": "z - z = 2iy = 2i Im(z)",
+      "score": 11
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "Polarform einer z = r(cos\\O+isin\\O)",
+      "score": 11
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "komplexen Zahl = r cis \\0",
+      "score": 5
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "Exponentialform z = r ei,p cp im Bogenmass",
+      "score": 5
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "einer komplexen .,.= lzl = Jx 2 +y 2: Länge von z",
+      "score": 11
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "coscp = - smcp = -",
+      "score": 14
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "ci,p = cos cp+ i sin cp und ( vgl. 62: Spezielle",
+      "score": 11
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "Rechenregeln Für z1 = r1 ciscp1 = r1ei,p,",
+      "score": 11
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "z2 = r2 cis <p2= r2ei'P2",
+      "score": 8
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "z1 · z2 = r1r2 cis(<p1+ ip2) = r1r2ei(,p,+,p2)",
+      "score": 13
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "-Zj = -Tj c•1 s(<p1- cp2) = -Tej ' \"( 1\"1 - 1\" • - l",
+      "score": 21
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "z = r cis(-cp) = re-i,p",
+      "score": 13
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "zn = rn cis(nip)=rneiny, (de l\\Ioivre)",
+      "score": 9
+    },
+    {
+      "page": 69,
+      "chapter": "Algebra",
+      "formula_raw": "Zk = cis (k --:;:; = e'\" k·'=\" ;;-k = 0, 1, 2, ... , n - 1",
+      "score": 25
+    },
+    {
+      "page": 70,
+      "chapter": "Algebra",
+      "formula_raw": "Xn+I = ( Xn + mit n 2'.0 Xn 2",
+      "score": 9
+    },
+    {
+      "page": 71,
+      "chapter": "Geometrie",
+      "formula_raw": "mit vorgegebenem Umfang U wird be- d. h. U = konst.",
+      "score": 7
+    },
+    {
+      "page": 71,
+      "chapter": "Geometrie",
+      "formula_raw": "{!k+l = --2- und Tk+l = Jrk • {lk+l",
+      "score": 21
+    },
+    {
+      "page": 71,
+      "chapter": "Geometrie",
+      "formula_raw": "Weil UKreis = 21rr gilt:",
+      "score": 4
+    },
+    {
+      "page": 71,
+      "chapter": "Geometrie",
+      "formula_raw": "- 2 ~ r - n 2en - n -- - - + t7 o r o MD1 = Q1.MD2 = !!2",
+      "score": 25
+    },
+    {
+      "page": 71,
+      "chapter": "Geometrie",
+      "formula_raw": "mit dem Umfang U = 2 aus:",
+      "score": 5
+    },
+    {
+      "page": 71,
+      "chapter": "Geometrie",
+      "formula_raw": "{!o = 4 1 und ro = 4 v '2",
+      "score": 9
+    },
+    {
+      "page": 71,
+      "chapter": "Geometrie",
+      "formula_raw": "8-Eck l?l = 0.301777 r 1 = 0.326641",
+      "score": 11
+    },
+    {
+      "page": 71,
+      "chapter": "Geometrie",
+      "formula_raw": "1024-F.cke s= o.318309 ra = o.31 10",
+      "score": 11
+    },
+    {
+      "page": 72,
+      "chapter": "Funktionen",
+      "formula_raw": "J(x) = 0, d. h. eine Nullstelle der zugehöri- lnx + :c - 3 = 0",
+      "score": 17
+    },
+    {
+      "page": 72,
+      "chapter": "Funktionen",
+      "formula_raw": "gen Funktion y = f(x).",
+      "score": 5
+    },
+    {
+      "page": 72,
+      "chapter": "Funktionen",
+      "formula_raw": "(Tangenten-",
+      "score": 4
+    },
+    {
+      "page": 72,
+      "chapter": "Funktionen",
+      "formula_raw": "\\'erfahren) Xn+r = Xn - f'(xn) mit n 2'.1",
+      "score": 9
+    },
+    {
+      "page": 72,
+      "chapter": "Funktionen",
+      "formula_raw": "f(x) = 0.",
+      "score": 5
+    },
+    {
+      "page": 73,
+      "chapter": "Funktionen",
+      "formula_raw": "te h = (b - a)/n angenähert. Die Kurvenstücke",
+      "score": 9
+    },
+    {
+      "page": 73,
+      "chapter": "Funktionen",
+      "formula_raw": "h = ( b - a) / n zerlegt, wobei n gerade ist. In je-",
+      "score": 11
+    },
+    {
+      "page": 73,
+      "chapter": "Funktionen",
+      "formula_raw": "xr.-2 xr.-1 b = xn X",
+      "score": 9
+    },
+    {
+      "page": 76,
+      "chapter": "Funktionen",
+      "formula_raw": "-de la Vallee Poussin abschätzen: 1r(x) -x",
+      "score": 7
+    },
+    {
+      "page": 77,
+      "chapter": "Funktionen",
+      "formula_raw": "Pn (X :s;x ) = (~)pk (1- Pt-k; n=2,3, ... ,11,12,15,20,25",
+      "score": 13
+    },
+    {
+      "page": 79,
+      "chapter": "Funktionen",
+      "formula_raw": "n= 12",
+      "score": 5
+    },
+    {
+      "page": 79,
+      "chapter": "Funktionen",
+      "formula_raw": "n= 15",
+      "score": 5
+    },
+    {
+      "page": 79,
+      "chapter": "Funktionen",
+      "formula_raw": "Also: n = 12, p = 6 = 0.25, x = 4 : Pi2 (X 4) = 0.842",
+      "score": 21
+    },
+    {
+      "page": 79,
+      "chapter": "Funktionen",
+      "formula_raw": "Also: n = 15, p = 4 = 0.2, x = 2: Pi5 (X 2'.2 ) = 1 - ?15 (X :5 1) = 1 - 0.167 = O.S33",
+      "score": 33
+    },
+    {
+      "page": 79,
+      "chapter": "Funktionen",
+      "formula_raw": "Oder: 4 rote entsprechen 16 nicht roten. Also q = 1 - p = 1 - 0.2 = 0.1'. Somit: Bi'~titntfü' di~",
+      "score": 15
+    },
+    {
+      "page": 79,
+      "chapter": "Funktionen",
+      "formula_raw": "Also: n = 15, q = 0.8 (in der Fusszeile ablesen), .r = 1: p· = 0.167",
+      "score": 17
+    },
+    {
+      "page": 80,
+      "chapter": "Funktionen",
+      "formula_raw": "n = 20",
+      "score": 5
+    },
+    {
+      "page": 80,
+      "chapter": "Funktionen",
+      "formula_raw": "n = 25",
+      "score": 5
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "Gleichförmige Bewegung s =so+ vt s Wegkoordinate",
+      "score": 7
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "(konstante Geschwindig- so Wert von s zum Zeitpunkt",
+      "score": 5
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "keit) t = 0",
+      "score": 5
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "Gleichmässig beschleu- s = so + v t + ½at2 v Momentangeschwindigkeit",
+      "score": 13
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "nigte Bewegung v = vo + at vo Anfangsgeschwindigkeit,",
+      "score": 7
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "(konstante Beschleuni- v2 = v5 + 2a (s - so) Wert von v zum Zeitpunkt",
+      "score": 13
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "gung) t = 0",
+      "score": 5
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "Mittlere Geschwindigkeit v=-=--- s1 Wegkoordinate zum",
+      "score": 17
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "Zeitpunkt (Momentangeschwin- zurückgelegte \"·egsrrecke .:i.-:",
+      "score": 7
+    },
+    {
+      "page": 81,
+      "chapter": "Funktionen",
+      "formula_raw": "(vgl. 55: Differcntialquotirnt: (Ygl. ~: Bc,timmte, lnt,c-r,tl:",
+      "score": 5
+    },
+    {
+      "page": 82,
+      "chapter": "Funktionen",
+      "formula_raw": "x = vot cos ao Erde: g 9.81m/s 2",
+      "score": 9
+    },
+    {
+      "page": 82,
+      "chapter": "Funktionen",
+      "formula_raw": "y = votsinao - ½gt2",
+      "score": 9
+    },
+    {
+      "page": 82,
+      "chapter": "Funktionen",
+      "formula_raw": "Winkelkoordinate 'P = b Bogenlänge",
+      "score": 5
+    },
+    {
+      "page": 82,
+      "chapter": "Funktionen",
+      "formula_raw": "Winkelgeschwindigkeit w=- 6.i.p Drehwinkel (im Bogen-",
+      "score": 9
+    },
+    {
+      "page": 82,
+      "chapter": "Funktionen",
+      "formula_raw": "Bahngeschwindigkeit v=wr",
+      "score": 5
+    },
+    {
+      "page": 83,
+      "chapter": "Geometrie",
+      "formula_raw": "v = konst., wenn F,es = 0 v Geschwindigkeit",
+      "score": 9
+    },
+    {
+      "page": 83,
+      "chapter": "Geometrie",
+      "formula_raw": "Aktionsprinzip Die Änderung des Bewegungszustandes ist proportional zur l\\irken-",
+      "score": 5
+    },
+    {
+      "page": 83,
+      "chapter": "Geometrie",
+      "formula_raw": "Fres = m7i F r es resultierende Kraft",
+      "score": 5
+    },
+    {
+      "page": 83,
+      "chapter": "Geometrie",
+      "formula_raw": "\"Actio = Reactio\" entgegengesetzt gerichteten Kraft F21 ein.",
+      "score": 4
+    },
+    {
+      "page": 83,
+      "chapter": "Geometrie",
+      "formula_raw": "Gewichtskraft Fo=mg g Fallbeschleunigung.",
+      "score": 5
+    },
+    {
+      "page": 83,
+      "chapter": "Geometrie",
+      "formula_raw": "Federkraft (Hooke- D Federkonstante",
+      "score": 5
+    },
+    {
+      "page": 83,
+      "chapter": "Geometrie",
+      "formula_raw": "FR= µa • F,v",
+      "score": 5
+    },
+    {
+      "page": 84,
+      "chapter": "Funktionen",
+      "formula_raw": "Zentripetalkraft Fz = ma= = m.rw2 = -- r Bahnradius",
+      "score": 21
+    },
+    {
+      "page": 84,
+      "chapter": "Funktionen",
+      "formula_raw": "Impuls p=mv m Masse",
+      "score": 5
+    },
+    {
+      "page": 84,
+      "chapter": "Funktionen",
+      "formula_raw": "Kraftstoss l't:it = 6.p F konstante Kraft",
+      "score": 7
+    },
+    {
+      "page": 84,
+      "chapter": "Funktionen",
+      "formula_raw": "satz konstanten Betrag und eine konstante Richtung. Er wird von Vorgän-",
+      "score": 6
+    },
+    {
+      "page": 84,
+      "chapter": "Funktionen",
+      "formula_raw": "Ptot =PI+ P2 + • • • + Pn Pt, P2,... Einzelimpulse",
+      "score": 10
+    },
+    {
+      "page": 84,
+      "chapter": "Funktionen",
+      "formula_raw": "= LPi = konst.",
+      "score": 8
+    },
+    {
+      "page": 84,
+      "chapter": "Funktionen",
+      "formula_raw": "Arbeit W = F, · s F, Kraft in Wegrichtung",
+      "score": 5
+    },
+    {
+      "page": 84,
+      "chapter": "Funktionen",
+      "formula_raw": "F, = Fcosa fil",
+      "score": 7
+    },
+    {
+      "page": 85,
+      "chapter": "Funktionen",
+      "formula_raw": "ßE= W !::i.EE nergieänderung",
+      "score": 5
+    },
+    {
+      "page": 85,
+      "chapter": "Funktionen",
+      "formula_raw": "Kinetische Energie/ Ekin = ½mv2 m Masse",
+      "score": 7
+    },
+    {
+      "page": 85,
+      "chapter": "Funktionen",
+      "formula_raw": "Potentielle Energie/ Epot = mgh g Fallbeschleunigung,",
+      "score": 7
+    },
+    {
+      "page": 85,
+      "chapter": "Funktionen",
+      "formula_raw": "Energie einer EF = ½Dy2 D Federkonstante",
+      "score": 7
+    },
+    {
+      "page": 85,
+      "chapter": "Funktionen",
+      "formula_raw": "Etot = E1 + E2 + ... + E",
+      "score": 11
+    },
+    {
+      "page": 86,
+      "chapter": "Funktionen",
+      "formula_raw": "r Abstand der Massen-",
+      "score": 5
+    },
+    {
+      "page": 87,
+      "chapter": "Funktionen",
+      "formula_raw": "Drehmoment M=Fr F Kraft",
+      "score": 5
+    },
+    {
+      "page": 87,
+      "chapter": "Funktionen",
+      "formula_raw": "Drehmoment- r Kraftarm: Abstand der",
+      "score": 5
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Dichte g=- m !\\fasse",
+      "score": 7
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Druck p=- F Kraft (1-zur Fläche)",
+      "score": 9
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Schweredruck/ p= ggh {! Dichte der Flüssigkeit",
+      "score": 7
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Auftriebskraft/ FA= ggVE VE eingetauchtes Volumen,",
+      "score": 6
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Frequenz f = !_ T Periode,",
+      "score": 5
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Kreisfrequenz w = - = 21rf",
+      "score": 11
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Elongation/ y = y · sin (wt + 'Po) y Amplitude",
+      "score": 11
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Momentane Aus- t Zeit",
+      "score": 5
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Kraftgesetz F=-ky k Richtgrösse",
+      "score": 7
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "(z.B. für Feder k = D)",
+      "score": 5
+    },
+    {
+      "page": 88,
+      "chapter": "Geometrie",
+      "formula_raw": "Schwingungsdauer T=21r[El m Masse",
+      "score": 5
+    },
+    {
+      "page": 89,
+      "chapter": "Funktionen",
+      "formula_raw": "Wellenzahl k = 271' f Frequenz",
+      "score": 5
+    },
+    {
+      "page": 89,
+      "chapter": "Funktionen",
+      "formula_raw": "Sinuswelle Y (x, t) = Y • sin (271'( y Elongation",
+      "score": 9
+    },
+    {
+      "page": 89,
+      "chapter": "Funktionen",
+      "formula_raw": "y (x, t) = y •s in (kx - wt) x Ortskoordinate",
+      "score": 7
+    },
+    {
+      "page": 89,
+      "chapter": "Funktionen",
+      "formula_raw": "y(x,t) = y•sin(w (~",
+      "score": 7
+    },
+    {
+      "page": 89,
+      "chapter": "Funktionen",
+      "formula_raw": "Dopplereffekt !B = fs. c±vB fB beobachtete Frequenz",
+      "score": 5
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Temperatur peratur ist ein Mass für clu, \\-/ärmezustand eines Sys-",
+      "score": 8
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Celsius-Temperatur rJ (in 'C) = T - Tn (in K) Tn Nonntemperatur",
+      "score": 9
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Absolute T (in K) = rJ+ 273.15 (in 'C) Tn = 273.15K",
+      "score": 11
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Temperaturdifferenz tl.f) = tl.T (gleiche Skalenteilung)",
+      "score": 5
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Zustandsgleichung pV = NkT=nRT p Druck",
+      "score": 11
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Boltzmann-Konstante k = NA (vgl. Umschlag, 33) N Teilchenzahl in V",
+      "score": 9
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Stoffmengei n Mol n=-=- {vgl. Umschlag, 33)",
+      "score": 13
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Molare Masse M = NArrvr mr Masse eines Teilchens",
+      "score": 5
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "(vgl.. !!Q, 31.1) NA Avogadro-Konstante",
+      "score": 5
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "von Boyle-Mariotte pV = konst. bei konstanter Temperatur (isotherm)",
+      "score": 8
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "von Gay-Lussac -V = konst. bei konstantem Druck (isobar)",
+      "score": 11
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "von Amontons = konst. bei konstantem Volumen (isochor)",
+      "score": 6
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Teilchenbewegung Ekin = -kT = -mrv 2 Ekin Mittlere Bewegungs-",
+      "score": 14
+    },
+    {
+      "page": 90,
+      "chapter": "Geometrie",
+      "formula_raw": "Gasdruck k Boltzmann-Konstante",
+      "score": 5
+    },
+    {
+      "page": 91,
+      "chapter": "Geometrie",
+      "formula_raw": "Absolute Luft- 'Pa= l?W ew Wasserdampfdichte",
+      "score": 7
+    },
+    {
+      "page": 91,
+      "chapter": "Geometrie",
+      "formula_raw": "Relative Feuchtig- 'P·r= - l?s Sättigungsdampfdichte",
+      "score": 9
+    },
+    {
+      "page": 91,
+      "chapter": "Geometrie",
+      "formula_raw": "Temperatur- Q = cm!:::,.T = Cn!:::,.T Q Wärme, Wärmemenge",
+      "score": 11
+    },
+    {
+      "page": 91,
+      "chapter": "Geometrie",
+      "formula_raw": "Verdampfen bzw. Q=Lvm Lv spezif. Verdampfungswärme",
+      "score": 5
+    },
+    {
+      "page": 91,
+      "chapter": "Geometrie",
+      "formula_raw": "Verbrennung Q=Hm H Heizwert, Brennwert (\"gl. 102. 25.2)",
+      "score": 5
+    },
+    {
+      "page": 92,
+      "chapter": "Geometrie",
+      "formula_raw": "1. Hauptsatz D.U= Q+ TV 6.U Änderung der inneren Energie eines Systems",
+      "score": 7
+    },
+    {
+      "page": 92,
+      "chapter": "Geometrie",
+      "formula_raw": "Kompressions- W=-pLW p Druck",
+      "score": 9
+    },
+    {
+      "page": 92,
+      "chapter": "Geometrie",
+      "formula_raw": "Reale Maschine 1/real = Qw WN Nutzarbeit",
+      "score": 6
+    },
+    {
+      "page": 92,
+      "chapter": "Geometrie",
+      "formula_raw": "Ideale Maschine 1/Carnot = Tw Temperatur des wärmeren Reservoirs (in K)",
+      "score": 7
+    },
+    {
+      "page": 92,
+      "chapter": "Geometrie",
+      "formula_raw": "Reale Maschine ¤real= WA WA Antriebsarbeit",
+      "score": 4
+    },
+    {
+      "page": 92,
+      "chapter": "Geometrie",
+      "formula_raw": "Ideale Maschine ¤Carnot ==- ---",
+      "score": 16
+    },
+    {
+      "page": 93,
+      "chapter": "Geometrie",
+      "formula_raw": "homogenen lVIediumg eracllinig und mit konstanter Gesclrn-indig-",
+      "score": 6
+    },
+    {
+      "page": 93,
+      "chapter": "Geometrie",
+      "formula_raw": "Brechungsgesetz -.-- = n12 = - = - c 1, c 2 Lichtgeschwindigkeiten in",
+      "score": 23
+    },
+    {
+      "page": 93,
+      "chapter": "Geometrie",
+      "formula_raw": "Lichtgeschwindigkeit CM= - C Lichtgesch\"indigkeit im",
+      "score": 7
+    },
+    {
+      "page": 94,
+      "chapter": "Geometrie",
+      "formula_raw": "Linsenformel -=-+- g Gegenstandswcite",
+      "score": 15
+    },
+    {
+      "page": 94,
+      "chapter": "Geometrie",
+      "formula_raw": "Abbildungsmassstab A=!!_=~ G Gegenstandsgrösse",
+      "score": 11
+    },
+    {
+      "page": 94,
+      "chapter": "Geometrie",
+      "formula_raw": "Normwert: s = 250 mm",
+      "score": 5
+    },
+    {
+      "page": 94,
+      "chapter": "Geometrie",
+      "formula_raw": "11ikroskop Viv1=-·- Objektiv bzw. Okular",
+      "score": 8
+    },
+    {
+      "page": 95,
+      "chapter": "Geometrie",
+      "formula_raw": "Ladungserhaltungs- Qtot = Q1 + Qz + ... + Qn Q1, Qz, ... Einzelladungen",
+      "score": 12
+    },
+    {
+      "page": 95,
+      "chapter": "Geometrie",
+      "formula_raw": "Qtot = Qi = konst. schlossenen System",
+      "score": 8
+    },
+    {
+      "page": 95,
+      "chapter": "Geometrie",
+      "formula_raw": "Coulombsches Fe= _l_lQ1Q2I Fe Coulombkraft",
+      "score": 4
+    },
+    {
+      "page": 95,
+      "chapter": "Geometrie",
+      "formula_raw": "Spannung im UAB = E · s =Es• cosa E elektrische Feldstärke",
+      "score": 11
+    },
+    {
+      "page": 96,
+      "chapter": "Geometrie",
+      "formula_raw": "Kapazität eines C=E:- A d « JA -Q +Q A Fläche einer Platte",
+      "score": 11
+    },
+    {
+      "page": 96,
+      "chapter": "Geometrie",
+      "formula_raw": "Energie des geladenen EKond = 2 1 QU= 2 1 cu2 d (vgl. 104, 27.2)",
+      "score": 9
+    },
+    {
+      "page": 96,
+      "chapter": "Geometrie",
+      "formula_raw": "Stromstärke l= !::,.Q M Ladung pro Zeiteinheit",
+      "score": 5
+    },
+    {
+      "page": 96,
+      "chapter": "Geometrie",
+      "formula_raw": "Stromstärke I = nqvA n Ladungsträgerdichte",
+      "score": 5
+    },
+    {
+      "page": 96,
+      "chapter": "Geometrie",
+      "formula_raw": "Grundgesetz m= zF m abgeschiedene Masse",
+      "score": 5
+    },
+    {
+      "page": 96,
+      "chapter": "Geometrie",
+      "formula_raw": "F Faraday-Konstante",
+      "score": 5
+    },
+    {
+      "page": 96,
+      "chapter": "Geometrie",
+      "formula_raw": "Widerstand R=- u Spannung",
+      "score": 9
+    },
+    {
+      "page": 97,
+      "chapter": "Geometrie",
+      "formula_raw": "U=RI - = R = konst.",
+      "score": 15
+    },
+    {
+      "page": 97,
+      "chapter": "Geometrie",
+      "formula_raw": "Elektrische Leistung P = UI C.: paunung",
+      "score": 5
+    },
+    {
+      "page": 97,
+      "chapter": "Geometrie",
+      "formula_raw": "Elektrische Arbeit W = UI!lt = P!it",
+      "score": 9
+    },
+    {
+      "page": 97,
+      "chapter": "Geometrie",
+      "formula_raw": "J oulesche Wärme W = R/2/lt = - u ! 2 l t R Wider,;tand",
+      "score": 17
+    },
+    {
+      "page": 98,
+      "chapter": "Geometrie",
+      "formula_raw": "Lorentzkraft Fi = qvB • sinip ,; _, q bewegte Ladung",
+      "score": 7
+    },
+    {
+      "page": 98,
+      "chapter": "Geometrie",
+      "formula_raw": "(Kraft auf eine bewegte Fi = q(v X B) B v Geschwindigkeit des geladenen",
+      "score": 5
+    },
+    {
+      "page": 98,
+      "chapter": "Geometrie",
+      "formula_raw": "Kraft auf einen strom- F = I sB • sin 'P I Stromstärke",
+      "score": 9
+    },
+    {
+      "page": 99,
+      "chapter": "Geometrie",
+      "formula_raw": "Zeitdilatation !::,.t= \"(ßto",
+      "score": 5
+    },
+    {
+      "page": 99,
+      "chapter": "Geometrie",
+      "formula_raw": "Längenkontraktion l = 6.t 0, lo Grössen im System, in dem das",
+      "score": 5
+    },
+    {
+      "page": 99,
+      "chapter": "Geometrie",
+      "formula_raw": "Impuls ri=1mv m Masse (invariant)",
+      "score": 5
+    },
+    {
+      "page": 99,
+      "chapter": "Geometrie",
+      "formula_raw": "Ruheenergie Eo= mc 2",
+      "score": 4
+    },
+    {
+      "page": 99,
+      "chapter": "Geometrie",
+      "formula_raw": "Gesamtenergie E =Eo+ Ekin = 1Eo",
+      "score": 11
+    },
+    {
+      "page": 99,
+      "chapter": "Geometrie",
+      "formula_raw": "Energie des E=hf h Plancksches Wirkungsquantum",
+      "score": 5
+    },
+    {
+      "page": 100,
+      "chapter": "Geometrie",
+      "formula_raw": "Bahnradien n = 1, 2, 3, ...",
+      "score": 5
+    },
+    {
+      "page": 100,
+      "chapter": "Geometrie",
+      "formula_raw": "Energie des Elektrons En = Ei Ei~ -13.6 eV",
+      "score": 6
+    },
+    {
+      "page": 100,
+      "chapter": "Geometrie",
+      "formula_raw": "Zerfallsgesetz N = Noe->.t N Anzahl Kerne",
+      "score": 7
+    },
+    {
+      "page": 100,
+      "chapter": "Geometrie",
+      "formula_raw": ">- Zerfallskonstante",
+      "score": 4
+    },
+    {
+      "page": 100,
+      "chapter": "Geometrie",
+      "formula_raw": "(vgl. fil: Exponentialfunktionen; Loga-",
+      "score": 4
+    },
+    {
+      "page": 100,
+      "chapter": "Geometrie",
+      "formula_raw": "Aktivität A=>-N",
+      "score": 7
+    },
+    {
+      "page": 100,
+      "chapter": "Geometrie",
+      "formula_raw": "Energiedosis D = 6.E 6.E absorbierte Strahlungsenergie",
+      "score": 5
+    },
+    {
+      "page": 100,
+      "chapter": "Geometrie",
+      "formula_raw": "Äquivalentdosis H=qD q Qualitätsfaktor, hängt von der",
+      "score": 5
+    },
+    {
+      "page": 103,
+      "chapter": "Geometrie",
+      "formula_raw": "26.1 Brechzahln gegenL uft bei 20 °C für ..\\= 589.3n m",
+      "score": 7
+    },
+    {
+      "page": 104,
+      "chapter": "Geometrie",
+      "formula_raw": "Aluminium 2.65 • 10-s Konstantan 49 • 10-s Silizium 640",
+      "score": 9
+    },
+    {
+      "page": 104,
+      "chapter": "Geometrie",
+      "formula_raw": "Eisen (rein) 9.61 • 10-s Messing 8 • 10-8 Wolfram (1000 °C) 33 · 10-s",
+      "score": 9
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 in (inch, Zoll) = 2.540 . 10-2 m 1 Knoten = 1.852 km/h 0.5144 mls",
+      "score": 13
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 ft (foot) = 12 in = 0.3048 m",
+      "score": 9
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 mi (mile) = 1609.344 m 1 lb (pound-mass) = 0.45359 kg",
+      "score": 11
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 Seemeile = 1852 m 1 et (Karat) =2-10-· 1 kg",
+      "score": 13
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 ca! = 4.1868 J 1 lb (pound-force) = 4.448",
+      "score": 11
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 kWh = 3.6 -106 J 1 bar = 105 Pa",
+      "score": 11
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 Elektronenvolt (eV) = 1.602. 10-19 J 1 atm = 101325 Pa",
+      "score": 11
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 PS 735.5 w 1 mmHg = 1 Torr 133.3 Pa",
+      "score": 5
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 mmWS (Wassersäule) = 9.806 Pa",
+      "score": 4
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "Temperatur 1 psi = 6.8947 • 103 Pa",
+      "score": 4
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "Celsius aus Fahrenheit {JG= g{)F -17.8 0",
+      "score": 7
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 Astronomische Einheit (AE) (mittlerer Abstand Sonne-Erde) 1.-196· 101 l lll",
+      "score": 7
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 siderisches Jahr 365.256-ld = 3.1558 · 10' s",
+      "score": 7
+    },
+    {
+      "page": 107,
+      "chapter": "Geometrie",
+      "formula_raw": "1 tropisches Jahr 365.2-122d = 3.155, · 107 s",
+      "score": 7
+    },
+    {
+      "page": 108,
+      "chapter": "Geometrie",
+      "formula_raw": "Fallbeschleunigung 274m/s2 Solarkonstante S 1367 W /m 2",
+      "score": 7
+    },
+    {
+      "page": 108,
+      "chapter": "Geometrie",
+      "formula_raw": "Dichte im Zentrum 1.62 • 105 kg/m3 Abstand vom 25 000 LJ",
+      "score": 4
+    },
+    {
+      "page": 111,
+      "chapter": "Geometrie",
+      "formula_raw": "Rutherfordium Rf 104 [261[ Titan Ti 22 47.90 146 Ti2+ 90",
+      "score": 4
+    },
+    {
+      "page": 112,
+      "chapter": "Algebra",
+      "formula_raw": "Abstand Punkt -Ebene 49 Aussage 7",
+      "score": 4
+    },
+    {
+      "page": 112,
+      "chapter": "Algebra",
+      "formula_raw": "Abstand Punkt-Gerade 42 Aussagenlogik 7",
+      "score": 6
+    },
+    {
+      "page": 112,
+      "chapter": "Algebra",
+      "formula_raw": "Achsenabschnittsform der Geraden 41 Avogadro-Konstante 90",
+      "score": 4
+    },
+    {
+      "page": 112,
+      "chapter": "Algebra",
+      "formula_raw": "Actio = Reactio 83",
+      "score": 4
+    },
+    {
+      "page": 112,
+      "chapter": "Algebra",
+      "formula_raw": "Asymptoten 50 Boltzmann-Konstante 90",
+      "score": 4
+    },
+    {
+      "page": 113,
+      "chapter": "Algebra",
+      "formula_raw": "Drehmomentgleichgewicht 87 Faraday-Konstante 96",
+      "score": 4
+    },
+    {
+      "page": 115,
+      "chapter": "Algebra",
+      "formula_raw": "Integrationskonstante 59 Kosinussatz 28",
+      "score": 4
+    },
+    {
+      "page": 115,
+      "chapter": "Algebra",
+      "formula_raw": "Kosinus 26 Linsenfernrohr 9-1",
+      "score": 4
+    },
+    {
+      "page": 116,
+      "chapter": "Funktionen",
+      "formula_raw": "Lorentzkraft 98 n-te Einheitswurzeln 69",
+      "score": 5
+    },
+    {
+      "page": 117,
+      "chapter": "Geometrie",
+      "formula_raw": "Phasenverschicbu110-29 Quadratwurzelberechnung nach Heron iO",
+      "score": 4
+    },
+    {
+      "page": 118,
+      "chapter": "Funktionen",
+      "formula_raw": "sin 26 tan 26",
+      "score": 4
+    },
+    {
+      "page": 118,
+      "chapter": "Funktionen",
+      "formula_raw": "Sinus 26, 27 Tangens 26",
+      "score": 4
+    },
+    {
+      "page": 118,
+      "chapter": "Funktionen",
+      "formula_raw": "Sinusfunktion 27, 29 Tangensfunktion 27",
+      "score": 4
+    },
+    {
+      "page": 118,
+      "chapter": "Funktionen",
+      "formula_raw": "Sinussatz 28 Tangentensatz 25",
+      "score": 4
+    },
+    {
+      "page": 118,
+      "chapter": "Funktionen",
+      "formula_raw": "Sinuswelle 89 Tangentensteigung 56",
+      "score": 4
+    },
+    {
+      "page": 118,
+      "chapter": "Funktionen",
+      "formula_raw": "Stefan-Boltzmann-Konstante 91 Trägheitsprinzip 83",
+      "score": 6
+    },
+    {
+      "page": 120,
+      "chapter": "Algebra",
+      "formula_raw": "WeitereW erkbestandteile: Algebra 7/8",
+      "score": 4
+    },
+    {
+      "page": 120,
+      "chapter": "Algebra",
+      "formula_raw": "978-3-280-04136-9 WeitereW erkbestandteile:",
+      "score": 10
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Gravitationskonstante G 6.674 . 10-11 N-m2/kg2",
+      "score": 9
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Lichtgeschwindigkeit C = 2.99792458 . 108 m/s",
+      "score": 7
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Magnetische Feldkonstante µo 1.25663706 • 10-6 :::::4 1T· 10-7 Y.s/(A·m)",
+      "score": 9
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Elektrische Feldkonstante eo = 1/(µoc 2 ) 8.85418781 . 10-12 A-s/(Y.m)",
+      "score": 15
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Elementarladung e = 1.602176634 . 10-19 C",
+      "score": 7
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Faraday-Konstante F=eNA = 96 485.332 ... C/mol",
+      "score": 15
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Plancksches h = 6.62607015 . 10-3~ J-s",
+      "score": 9
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Normwert der 9n = 9.80665 m/s2",
+      "score": 7
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Normdruck Pn = 101325 Pa",
+      "score": 4
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Normtemperatur Tn = 273.15 K",
+      "score": 5
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Molares Volumen des Vm = 22.413969 ... . 10-3 m 3 /mol",
+      "score": 9
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Avogadro-Konstante NA = 6.02214076 . 1023 1/mol",
+      "score": 10
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Universelle Gaskonstante R=NA•k = 8.314462 ... J/(mol-K)",
+      "score": 15
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Boltzmann-Konstante k = 1.380649 . 10-23 J/K",
+      "score": 13
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Stefan-Boltzmann-Konstante (T = 5.670374 ... . 10-8 W/(m 2-K4",
+      "score": 17
+    },
+    {
+      "page": 121,
+      "chapter": "Geometrie",
+      "formula_raw": "Solarkonstante 1367 W/m",
+      "score": 5
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Aktivität A Becquerel Bq = 1/s",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Äquivalentdosis H Sievert Sv = J/kg",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Arbeit w Joule J = N-rn",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Brechkraft D Dioptrie dpt = 1/rn",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Druck p Pascal Pa = N/m2",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Elektrische Kapazität C Farad F = C/V",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Elektrische Spannung u Volt V = J/C",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Elektrischer Widerstand R Ohm n =V/A",
+      "score": 9
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Elektrische Ladung Q Coulomb C = A-s",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Energie E Joule J = N-m",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Energiedosis D Gray Gy = J/kg",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Federkonstante D N/m",
+      "score": 5
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Frequenz f Hertz Hz = 1/s",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Impuls p Huygens Hy = '·s",
+      "score": 5
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Kraft F Newton N = kg-m/s2",
+      "score": 9
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Leistung p Watt w = J/s",
+      "score": 7
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Magnetische Flussdichte B Tesla T = V-s/m2",
+      "score": 9
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Magnetischer Fluss <[> Weber Wb = T-m2 = V-",
+      "score": 13
+    },
+    {
+      "page": 122,
+      "chapter": "Geometrie",
+      "formula_raw": "Radiant rad =m/m",
+      "score": 7
+    }
+  ]
+}

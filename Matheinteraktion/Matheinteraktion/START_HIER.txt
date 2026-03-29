@@ -1,0 +1,26 @@
+SolveLab - Startanleitung
+
+1. ZIP-Datei entpacken.
+2. Die Datei index.html doppelklicken.
+3. Wenn alles normal aussieht, kannst du direkt starten.
+
+Wenn etwas leer bleibt oder nicht richtig lädt:
+
+1. Den Ordner Matheinteraktion öffnen.
+2. Einen kleinen lokalen Server starten.
+3. Danach im Browser http://localhost:8080 öffnen.
+
+Beispiel mit Python:
+python3 -m http.server 8080
+
+Wichtig:
+- Manche Browser laden lokale Datendateien nicht sauber, wenn index.html direkt geöffnet wird.
+- SolveLab braucht derzeit beim Start Internet, weil einige Bibliotheken noch online geladen werden.
+
+Inhalt der ZIP:
+- index.html
+- styles.css
+- script.js
+- data
+- README.md
+- START_HIER.txt

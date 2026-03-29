@@ -1,0 +1,32 @@
+{
+  "source": "User-provided learning goals (26.03.2026)",
+  "goals": {
+    "algebra": [
+      "Lineare Gleichungssysteme mit zwei Variablen lösen",
+      "Lineare Gleichungssysteme mit drei Variablen lösen",
+      "LGS mit zwei Variablen graphisch interpretieren",
+      "Quadratische Gleichungen mit mehreren Methoden lösen",
+      "Rechenregeln für Potenzen/Wurzeln/Logarithmen anwenden",
+      "Potenz-, Wurzel-, Exponential-, Logarithmusgleichungen lösen",
+      "Einfache Zins- und Zinseszinsaufgaben lösen"
+    ],
+    "funktionen": [
+      "Lineare und quadratische Funktionen darstellen",
+      "Schnittpunkte rechnerisch bestimmen und interpretieren",
+      "Funktionsgleichungen aus Graphen/Punkten bestimmen",
+      "Symmetrie, Öffnung und Scheitelpunkt bestimmen",
+      "Exponentialfunktionen auf Wachstum/Zerfall anwenden"
+    ],
+    "geometrie": [
+      "Höhe, Winkelhalbierende, Schwerlinie im Dreieck kennen und berechnen",
+      "Umfang und Flächeninhalt zusammengesetzter Figuren berechnen",
+      "Ähnlichkeit für Längen/Flächen verwenden",
+      "Volumen/Oberfläche von Quader, Prisma, Pyramide, Kegel, Kugel, Zylinder",
+      "Veränderte zusammengesetzte Körper skizzieren und analysieren"
+    ],
+    "trigonometrie": [
+      "Beliebige Dreiecke mit trigonometrischen Hilfsmitteln lösen",
+      "Winkel zwischen Geraden und zwischen Gerade/Ebene bestimmen"
+    ]
+  }
+}

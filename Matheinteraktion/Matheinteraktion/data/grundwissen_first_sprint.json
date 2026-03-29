@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "source": "/Users/timon/Downloads/Grundwissen Mathematik.pdf",
+    "page_count": 388,
+    "pages_extracted": 388,
+    "formulas_detected": 3084
+  },
+  "formulas": [
+    {
+      "chapter": "Algebra",
+      "page": 152,
+      "formula_raw": "2.a) -t- Jx=1 = 3· fi'+6 b) 3-J4x+32=5· J3x-15 c) Jx+s- Jx+T= 1",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Algebra",
+      "page": 133,
+      "formula_raw": "5 und -5 sind L \\ungcn der Gleichung. .r2=-5 = (-5J--? 25=0 ? =0=0",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Algebra",
+      "page": 152,
+      "formula_raw": "d) J3x+ 10- J3x+ 1 = 1 e) fi+'I+ ,fi+'TT = J4x+29 1) Jx+a2-I- fi=a",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Algebra",
+      "page": 212,
+      "formula_raw": "1) log,,(11•1 •)= log.11+ log„ v 2) log.!!.= log„ 11 - log„ v 3) logaur=r•log.11",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Funktionen",
+      "page": 208,
+      "formula_raw": "Nach z.B. 12 Wochen sind bereits -200+----i---+-----i---i-----+-/--l-----!--",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Funktionen",
+      "page": 145,
+      "formula_raw": "a)..\\2 +10x-21=0 Xi=-3undx2=-7 b).r+3x-28=0 xi=-4undx2=7",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Funktionen",
+      "page": 227,
+      "formula_raw": "z.B. sin340° = sin(360°-20°) = -sin20° cos( \" l - ..- - -a -1 ) -• r/ c osa cos(l80°-a)",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Funktionen",
+      "page": 362,
+      "formula_raw": "c) x1 = l;x1 = -5 d) x1 =3;x2 = -4 h) X1 = 0;x1 = _!!.;a =!=0",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Geometrie",
+      "page": 307,
+      "formula_raw": "nicht die Länge s der Straße entschei -===~s =5= km= =====ß·",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Geometrie",
+      "page": 54,
+      "formula_raw": "a) J=Z b) - 7 = -= 7 - c) :! • =-·- ? d) 3p =-?-",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Geometrie",
+      "page": 360,
+      "formula_raw": "j) y = 18 k) x=7 1) z=-- 4 9.a) U=R· I b) g=-;; F ; c) g = -?A,,",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "page": 261,
+      "formula_raw": "3. Sind die beiden Geraden g und h parallel? ---------±:J-1-------h p",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "page": 296,
+      "formula_raw": "folgt /SA/= /AB/ und somit /A'B'/ = /SA'/. /ABI = /ABI I • /AB/",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "page": 247,
+      "formula_raw": "Die Länge der Seite c wird mithilfe des C - C = -- sin y ⇒ - c = --- sin 92,2°",
+      "source": "Fundamentum.pdf"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "source": "/Users/timon/Downloads/Fundamentum.pdf",
+    "page_count": 123,
+    "pages_extracted": 123,
+    "formulas_detected": 738
+  },
+  "formulas": [
+    {
+      "chapter": "Algebra",
+      "page": 68,
+      "formula_raw": "Potenzen der i2=-1 i3=-i i4=1 i5=i i6=-1",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Algebra",
+      "page": 69,
+      "formula_raw": "Zk = cis (k --:;:; = e'\" k·'=\" ;;-k = 0, 1, 2, ... , n - 1",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Algebra",
+      "page": 69,
+      "formula_raw": "-Zj = -Tj c•1 s(<p1- cp2) = -Tej ' \"( 1\"1 - 1\" • - l",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Algebra",
+      "page": 16,
+      "formula_raw": "Logarithmen- logb(u • v) = logbu + logb v",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Funktionen",
+      "page": 63,
+      "formula_raw": "Tzy = -,==:::::::i=:=l ==--:====",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Funktionen",
+      "page": 11,
+      "formula_raw": "Assoziativgesetze (a + b) + c = a + (b + c) = a + b + c (a -b) -c = a -(b-c) = a • b • c",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Funktionen",
+      "page": 45,
+      "formula_raw": "XM = X -- 1 2 + -, X2 !IM= - !/ 2 1 - + , !/2 ZM = - Z 2 1 - + Z2",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Funktionen",
+      "page": 52,
+      "formula_raw": "A Re ri i t h h e m /S e u ti m sc m he e der Sn= n- a - 1+ 2 a - n = a1n + -n-(n'-- 2 -- l) - d '- k",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Geometrie",
+      "page": 30,
+      "formula_raw": "S = 2G + S1 + S2 + •• · + Sn -,...-. ....,, ;.CJ._----_- -i M = 27irh",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Geometrie",
+      "page": 28,
+      "formula_raw": "cos(2a) = cos2 n - sin2 a = 2 cos2 a - 1 = 1 - 2 sin2 n",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Geometrie",
+      "page": 28,
+      "formula_raw": "sin(l80° + n) = - sin a cos(180° + a) = - cosn",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "page": 12,
+      "formula_raw": "Yl = Y2 = ... = Yn = k d. h. Y = k . X",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "page": 26,
+      "formula_raw": "r = Jx2 +y2 COS<=p - X sin<p = '!!..",
+      "source": "Fundamentum.pdf"
+    },
+    {
+      "chapter": "Trigonometrie",
+      "page": 26,
+      "formula_raw": "tana: = 'J!.. a f= 90° + k • 180°, k E Z",
+      "source": "Fundamentum.pdf"
+    }
+  ]
+}
